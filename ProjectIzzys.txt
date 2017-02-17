@@ -1,0 +1,123 @@
+Benjamin Wijnsma & Erik de Graaf, 4AM1A, Project Izzys' functionalities:
+
+1) Login
+	- ADMIN rank (Can post, edit, remove, change user roles, see everything. Has admin page)
+	- BETA rank (Can suggest but not edit, see everything)
+	- FOLLOWER rank (Can use ReplyFunction(), see a lot but not all)
+	- NOT LOGGED IN (Can do nothing, and see very little.)
+
+2) Registration
+	- Require email
+	- Require username
+	- Require password
+	- Require password again
+	- Save data to database, passwords in sha256
+
+3) Admin page
+	- visible to ADMIN rank ONLY.
+	- Overview of registered users and their ranks
+	- Ability to change a user's rank (dropdown)
+	- Ability to change a story's minimum rank (dropdown)
+
+4) Function Reply()
+	- FOLLOWER rank and higher
+	- Small form on every page
+	- Sends an email to a designated email address
+	- Tagged with username
+	- Send copy to user (optional(checkbox))
+	- Save copy to database
+
+5) Navigation
+	- Navigate to main pages from homepage
+	- Navigate to Log In/Profile
+	- AJAX in story posts on main pages (separate navbar, centered, below page title)
+	- Change url without refresh to enable bookmarking
+
+6) Function Post()
+	- ADMIN rank ONLY form (on admin page)
+	- Select parent page (dropdown)
+	- Select minimum rank required to view
+	- Textfield for story/post
+	- Update "last post" message on homepage
+
+7) Function MarkAsRead()
+	- FOLLOWER rank and higher
+	- Ability to mark/unmark a chapter as read
+	- Change button color for 'Read' chapters
+	- Database Enum (True/False) saved to user
+
+8) Profile Page
+	- FOLLOWER rank and higher
+	- 3 buttons top page (alike chapters on main pages) (AJAX?) Default at chapters.
+		- Chapters (ShowRead())
+		- Comments (ShowComments())
+		- Personal (ShowMe())
+
+9) Main Pages
+	- Home (button on every page directing here)
+	- "Featured Pride" (Main button on HomePage, button to next (unread) chapter on profile)
+	- "Backburners" (Dropdown button on HomePage, button to next (unread) chapter per story on profile)
+	- "Graveyard" (Main button on HomePage, button on profile. Page has no 'next chapter')
+	- "Me" (Main button on homepage, button on every (other) main page) TOGGLE WITH LOG IN
+
+	9.2) Child Pages
+		- The stories, chapters etc per main page respectively.
+		- Buttons on their parent page ONLY, except for when they're the next unread for user
+
+10) Function ShowComments()
+	- FOLLOWER rank and higher
+
+	10.2) Profile Comments Overview
+		- Previous/Next comment buttons when applicable
+		- Selector to pick amount of comments to show (dropdown)
+		- Show most recent comment of user
+
+11) Function ShowRead()
+	- FOLLOWER rank and higher
+
+	11.2) Profile Chapter Overview 
+		- Overview of chapters marked as read
+		- Button to next unread chapter per (main) page
+		- Option to mark/unmark
+
+12) Function ShowMe()
+	- FOLLOWER rank and higher
+	
+	12.2) Profile Personal section 
+		- Option to change email/password
+		- Option to change website layout (ChangeFont())
+
+13) Log-on button
+	- On every (Main) page
+	- Changes to "Me" button upon successful logon
+	- Prompts logon alert/overlay with username/password textfields
+	- New Account checkbox
+	- Log in button (forwards to register form (In new tab) if 'New Account' = checked)
+	- Refresh page with same chapter open upon successful log on
+
+14) Function ChangeFont()
+	- FOLLOWER rank and higher
+	- Ability to change font of chapter div
+	- Ability to change font color
+	- Ability to change (chapter) font size
+	- Ability to change background color of chapter div
+	- Save to [user].css, user preferences, default.css for everything else or if no preferences set
+	- Allow costum import from fonts.google.com (optional) through textbox
+		
+
+15) Function loadDoc()
+	- Any or no rank
+	- Toggles chapter visibility
+	- Chapter's are AJAX'd in
+	- Clicking the button of an open chapter closes it
+	- Clicking the button of another chapter opens that instead
+	- Display "Please log in to see this" text to chapters marked for FOLLOWER rank
+	- Hide everything marked for BETA rank or higher
+
+
+//TODO
+	- Merge to bootsstrap
+  	- Make open chapter visible in url (without refresh)
+  	- Change loadComment() to Reply() and include username, no longer ask for email address
+	- Add (missing) functionalities
+

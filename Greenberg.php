@@ -7,7 +7,7 @@
         <link rel="icon" 
           type="image/png" 
           href="img/icon.png">
-        <script src="/bootjq/jquery-3.1.1.min.js" type="text/javascript"> </script> </script>
+        <script src="bootjq/jquery-3.1.1.min.js" type="text/javascript"> </script> </script>
         <title>Greenberg's Experiment</title>
     </head>
     <center>

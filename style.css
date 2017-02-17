@@ -351,3 +351,13 @@ li {
     text-align: center;
     float: center;
 }
+
+  .modal-header, .close, .modal-footer, .modal-body {
+      background-color: rgba(0, 0, 0, 1);
+      color:red !important;
+      text-align: center;
+  }
+
+  .form-control{
+      text-align: center;
+  }
