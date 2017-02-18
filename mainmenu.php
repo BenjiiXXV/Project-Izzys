@@ -14,6 +14,9 @@
         <li>
           <button onclick="Main2()" class="button" style="button">GRAVEYARD:<br>Dead Projects</button>
         </li>
+        <li>
+          <button onclick="me()" class="button" style="button" id="mebutton"></button>
+        </li>
       </ul>
     </div>
 
@@ -43,6 +46,21 @@
       function Main2(){
         window.location.href = "dead.php";
       }
+      
+        //if (user is logged on){
+          document.getElementById("mebutton").innerHTML = "ME, MYSELF AND I<br>your profile page";
+          function me(){
+            window.location.href = "profile.php";
+          }
+        /*
+        } else {
+              document.getElementById("mebutton").innerHTML = "LOG<br>IN";
+              function me(){
+                include("login.php");
+             ] 
+          }
+        */
+      
 
 
     </script>
