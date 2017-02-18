@@ -116,9 +116,14 @@ Benjamin Wijnsma & Erik de Graaf, 4AM1A, Project Izzys' functionalities:
 
 
 //TODO
-	- Replace the comment section scripts and php in every document to  <?php include("commentdata.php"); ?>
+	
 	- Merge to bootsstrap
   	- Make open chapter visible in url (without refresh)
   	- Change loadComment() to Reply() and include username, no longer ask for email address
 	- Add (missing) functionalities
+
+//TODO DB
+	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
+	- Table for user css + default values
+	- Table for ADMIN, BETA and FOLLOWER respetively. Newly created accounts get FOLLOWER rank by default.
 
