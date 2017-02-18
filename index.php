@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <!--<link rel="stylesheet" type="text/css" href="style.css">-->
     <link rel="icon" type="image/png" href="img/icon.png">
@@ -10,6 +11,7 @@
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.6/dist/js/bootstrap.min.js"></script>
     <script src="bootjq/bootstrap.min.js"></script>
+    
   </head>
   <title>Izzy's Epicailty</title>
   <style>
@@ -36,9 +38,8 @@
       </div> 
     </div>
 
-    <?php
-     include("mainmenu.php");
-     ?>
+   
   </body>
-
-</html>
+<?php
+     include("mainmenu.php");
+?>

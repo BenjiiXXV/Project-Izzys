@@ -14,7 +14,7 @@
 
 
 <div class="container">
-  <h2>Modal Login Example</h2>
+  <h2>Log in</h2>
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" id="myBtn">Login</button>
 

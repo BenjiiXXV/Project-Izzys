@@ -116,6 +116,7 @@ Benjamin Wijnsma & Erik de Graaf, 4AM1A, Project Izzys' functionalities:
 
 
 //TODO
+	- Replace the comment section scripts and php in every document to  <?php include("commentdata.php"); ?>
 	- Merge to bootsstrap
   	- Make open chapter visible in url (without refresh)
   	- Change loadComment() to Reply() and include username, no longer ask for email address
