@@ -1,4 +1,18 @@
-Benjamin Wijnsma & Erik de Graaf, 4AM1A, Project Izzys' functionalities:
+//TODO
+	
+	- Merge to bootsstrap
+  	- Make open chapter visible in url (without refresh)
+  	- Change loadComment() to Reply() and include username, no longer ask for email address
+	- Add (missing) functionalities
+
+//TODO DB
+	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
+	- Table for user css + default values
+	- Table for ADMIN, BETA and FOLLOWER respetively. Newly created accounts get FOLLOWER rank by default.
+	- Table for comments
+
+
+Functionalities to realize:
 
 1) Login
 	- ADMIN rank (Can post, edit, remove, change user roles, see everything. Has admin page)
@@ -113,17 +127,3 @@ Benjamin Wijnsma & Erik de Graaf, 4AM1A, Project Izzys' functionalities:
 	- Clicking the button of another chapter opens that instead
 	- Display "Please log in to see this" text to chapters marked for FOLLOWER rank
 	- Hide everything marked for BETA rank or higher
-
-
-//TODO
-	
-	- Merge to bootsstrap
-  	- Make open chapter visible in url (without refresh)
-  	- Change loadComment() to Reply() and include username, no longer ask for email address
-	- Add (missing) functionalities
-
-//TODO DB
-	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
-	- Table for user css + default values
-	- Table for ADMIN, BETA and FOLLOWER respetively. Newly created accounts get FOLLOWER rank by default.
-
