@@ -356,6 +356,7 @@ li {
       background-color: rgba(0, 0, 0, 1);
       color:red !important;
       text-align: center;
+      border: 0px;
   }
 
   .form-control{

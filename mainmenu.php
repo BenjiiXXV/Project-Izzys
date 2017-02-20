@@ -1,15 +1,32 @@
 
+<?php include("login.php"); ?>
+<html>
+  
+  <head>
+    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href="bootjq/font-awesome.min.css" rel="stylesheet">
+    <link href="bootjq/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="bootjq/jquery-3.1.1.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.6/dist/js/bootstrap.min.js"></script>
+    <script src="bootjq/bootstrap.min.js"></script>
+</head>
     <div class="meny pull-right">
       <ul>
         <li><button onclick="Main()" class="button" style="button">FEATURED PRIDE:<br>Greenberg's Experiment</button></li>
         <li>
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">BACKBURNERS:<br>Idle Projects</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="wota.php">WAR OF<br>THE ANGELS</a>
-              <a href="gol.php">DRAGON'S<br>LEGACY</a>
-            </div>
+                                            
+            <div class="dropdown">
+              <button class="button dropdown-toggle" type="button" data-toggle="dropdown">BACKBURNERS<br>Idle Projects</button>
+              <ul class="dropdown-menu">
+                <li><a href="wota.php">WAR OF<br>THE ANGELS</a></li>
+                <li><a href="gol.php">DRAGON'S<br>LEGACY</a></li>
+              </ul>
+              </div>
           </div>
+        
         </li>
         <li>
           <button onclick="Main2()" class="button" style="button">GRAVEYARD:<br>Dead Projects</button>
@@ -48,19 +65,26 @@
       }
       
         //if (user is logged on){
-          document.getElementById("mebutton").innerHTML = "ME, MYSELF AND I<br>your profile page";
+         /* document.getElementById("mebutton").innerHTML = "ME, MYSELF AND I<br>your profile page";
           function me(){
             window.location.href = "profile.php";
           }
-        /*
-        } else {
+        
+        } else {*/
               document.getElementById("mebutton").innerHTML = "LOG<br>IN";
               function me(){
-                include("login.php");
-             ] 
+                      $(document).ready(function(){
+                        $("#mebutton").click(function(){
+                          $("#myModal").modal();
+                        });
+                      });
+                
           }
-        */
-      
 
+        
+ /* <h2>Log in</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" id="myBtn">Login</button>*/
 
     </script>
+    
