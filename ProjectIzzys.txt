@@ -7,9 +7,22 @@
 
 //TODO DB
 	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
+		COLUMN User
+		COLUMN per chapter
 	- Table for user css + default values
-	- Table for ADMIN, BETA and FOLLOWER respetively. Newly created accounts get FOLLOWER rank by default.
+		COLUMN User
+		COLUMN per css value
+	- Table for ADMIN, BETA and FOLLOWER respectively. Newly created accounts get FOLLOWER rank by default.
+		**default user table!** (users register to this!)
+COLUMN User(name)
+		COLUMN Email
+		COLUMN Password
+		COLUMN User role ENUM (3, ADMIN, BETA, FOLLOWER)
 	- Table for comments
+		COLUMN user
+		COLUMN comment
+		(new row per comment!)
+
 
 Functionalities to realize:
 
@@ -126,3 +139,5 @@ Functionalities to realize:
 	- Clicking the button of another chapter opens that instead
 	- Display "Please log in to see this" text to chapters marked for FOLLOWER rank
 	- Hide everything marked for BETA rank or higher
+
+
