@@ -4,6 +4,8 @@ body {
     align-content: center;
     background-color: black;
     text-align: center;
+    width: 100%;
+  
 }
 .meny{
     background-color: (1, 0, 0, 1);
@@ -83,12 +85,7 @@ h4 {
 hr{
     color: red;
 }
-body {
-    
-    background-color: black;
-    text-align: right;
-  
-}
+
 col{
     padding: 0;
     margin: 0;
@@ -284,19 +281,21 @@ li {
 
 .footer {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 5px;
+  left: 5px;
   padding: 1rem;
   color: darkred;
   text-align: left;
+  
 }
 .footer2 {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 5px;
+  bottom: 5px;
   padding: 1rem;
   color: darkgreen;
   text-align: right;
+  
 }
 
 
@@ -357,6 +356,7 @@ li {
       color:red !important;
       text-align: center;
       border: 0px;
+      margin: 0px;
   }
 
   .form-control{

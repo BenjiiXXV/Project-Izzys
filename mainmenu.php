@@ -1,9 +1,8 @@
 
 <?php include("login.php"); ?>
 <html>
-  
   <head>
-    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/png" href="img/icon.png">
     <link href="bootjq/font-awesome.min.css" rel="stylesheet">
     <link href="bootjq/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -12,21 +11,22 @@
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.6/dist/js/bootstrap.min.js"></script>
     <script src="bootjq/bootstrap.min.js"></script>
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </head>
     <div class="meny pull-right">
       <ul>
         <li><button onclick="Main()" class="button" style="button">FEATURED PRIDE:<br>Greenberg's Experiment</button></li>
-        <li>
-                                            
+        <li>                        
             <div class="dropdown">
-              <button class="button dropdown-toggle" type="button" data-toggle="dropdown">BACKBURNERS<br>Idle Projects</button>
+              <button class="button dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">>BACKBURNERS<br>Idle Projects</button>
               <ul class="dropdown-menu">
                 <li><a href="wota.php">WAR OF<br>THE ANGELS</a></li>
                 <li><a href="gol.php">DRAGON'S<br>LEGACY</a></li>
               </ul>
               </div>
           </div>
-        
         </li>
         <li>
           <button onclick="Main2()" class="button" style="button">GRAVEYARD:<br>Dead Projects</button>

@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+
 <html>
   <head>
-    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" type="image/png" href="img/icon.png">
     <link href="bootjq/font-awesome.min.css" rel="stylesheet">
     <link href="bootjq/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,6 +10,9 @@
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.6/dist/js/bootstrap.min.js"></script>
     <script src="bootjq/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  </head>
 
 <div class="container">
@@ -33,15 +36,17 @@
               <input type="password" class="form-control" id="psw" placeholder="Enter password">
             </div>
             <div class="modal-footer">
-            <button type="submit" class="button btn-block" style="button"><span class="glyphicon glyphicon-off"></span> Login</button>
+            <button type="submit" class="button col-sm-12" style="button"><span class="glyphicon glyphicon-off"></span> Login</button>
           </div>
           </form>
-          <button type="button" class="button col-sm-4" style="button" data-target="#myModal2">Sign up instead</button>
-          <button type="" class="button col-sm-4" style="button" data-dismiss="modal">Forgot Password</button>
-        </div>
+          <div>
+            <button type="button" class="button col-sm-6 pull-right" style="button" data-target="#myModal2">Sign up instead</button>
+            <button type="" class="button col-sm-6 pull-left" style="button" data-dismiss="modal">Forgot Password</button>
+          </div>
       </div>
     </div>
   </div> 
+ </div>
    <!-- Registry Modal -->
   <div class="modal fade" id="myModal2" role="dialog">
     <div class="modal-dialog">

@@ -11,7 +11,6 @@
 	- Table for ADMIN, BETA and FOLLOWER respetively. Newly created accounts get FOLLOWER rank by default.
 	- Table for comments
 
-
 Functionalities to realize:
 
 1) Login
