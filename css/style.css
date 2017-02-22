@@ -1,0 +1,364 @@
+body {
+    padding: 1em;
+    color: red;
+    align-content: center;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+  
+}
+.meny{
+    background-color: (1, 0, 0, 1);
+    color: black;
+    font-family: 'Garamond';
+    text-align: center;
+    align-content: right;
+    float: right;
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+    overflow: hidden;
+    padding: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+/*table*/
+table {
+    border: none;
+    background-color: black;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: none;
+    color: red;
+    text-align: center;
+}
+
+th {
+    border: none;
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Fondamento', cursive;
+    margin-bottom: 0px;
+}
+h2{
+    font-family: 'Fondamento', cursive;
+}
+.rhs{
+    text-align: left;
+    float: center;
+    width: 48%;
+    left: 26%;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0px;
+   
+}
+.lhs{
+    text-align: right;
+    float: center;
+    width: 48%;
+    right: 26%;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.wotasub{
+    text-align: right;
+    float: center;
+    width: 48%;
+    right: 26%;
+    font-family: 'Rochester', cursive;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+h4 {
+    color: darkred;
+}
+hr{
+    color: red;
+}
+
+col{
+    padding: 0;
+    margin: 0;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: red;
+    font-size: 0px;
+    padding: 8px;
+    border: solid 1px red;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+    color: darkred;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkred;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: red
+}
+
+.show {
+    display: block;
+}
+
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: black;
+    color: red;
+    font-size: 16px;
+    border: solid 1px darkred;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.button:hover, .button:focus {
+    background-color: black;
+    color: darkred;
+}
+
+p {
+    align-content: center;
+    text-indent: 1%;
+    text-align: justify;
+    text-align-last: start;
+    font-size: 16;
+    font-family: 'Garamond';
+    width: 60%;
+    float: center;
+    left: 20%;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: red;
+    padding: 8px;
+    font-size: 16px;
+    border: solid 1px darkred;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+    color: darkred;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkred;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #9f0000
+}
+
+.show {
+    display: block;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid darkred;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
+
+li {
+    display: inline;
+}
+
+.butt {
+    background-color: black;
+    color: #F3D42A;
+    padding: 4px;
+    font-size: 12px;
+    border: solid 1px #F3D42A;
+    align-content: right;
+    text-align: center;
+}
+
+.butt:hover, .butt:focus {
+    background-color: black;
+    color: #F3D42A;
+    border: solid 1px red;
+}
+
+.butti {
+    background-color: black;
+    color: red;
+    padding: 4px;
+    font-size: 12px;
+    border: solid 1px red;
+    align-content: right;
+    text-align: center;
+}
+
+.butti:hover, .butti:focus {
+    background-color: black;
+    color: red;
+    border: solid 1px #F3D42A;
+}
+
+.bloodyeverything{
+    background-color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 1rem;
+  color: darkred;
+  text-align: left;
+  
+}
+.footer2 {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  padding: 1rem;
+  color: darkgreen;
+  text-align: right;
+  
+}
+
+
+.intel1{
+    float: left; 
+    width: 48%;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+    text-align: justify;
+    text-align-last: start;
+    font-size: 16;
+    font-family: 'Garamond';
+}
+
+.comm{
+    clear: both;
+}
+
+.ranks{
+    border: solid 1px red; 
+    border-collapse: collapse;
+    align-content: center; 
+    text-align: left;
+}
+
+.rank{
+    width: 12%;
+    border: solid 1px red; 
+    border-collapse: collapse;
+    align-content: center; 
+    text-align: left;
+}
+
+.fw{
+    border: solid 1px red; 
+    border-collapse: collapse;
+    align-content: center; 
+    text-align: center;
+}
+.center{
+    border: solid 1px red;
+    margin: 0 auto;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.c2{
+    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+    float: center;
+}
+
+  .modal-header, .close, .modal-footer, .modal-body {
+      background-color: rgba(0, 0, 0, 1);
+      color:red !important;
+      text-align: center;
+      border: 0px;
+      margin: 0px;
+  }
+
+  .form-control{
+      text-align: center;
+  }
