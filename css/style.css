@@ -5,9 +5,9 @@ body {
     background-color: black;
     text-align: center;
     width: 100%;
-  
 }
-.meny{
+
+.meny {
     background-color: (1, 0, 0, 1);
     color: black;
     font-family: 'Garamond';
@@ -15,19 +15,21 @@ body {
     align-content: right;
     float: right;
     position: absolute;
-    top: 5px; 
+    top: 5px;
     right: 5px;
     overflow: hidden;
     padding: 0px;
     margin-right: 0px;
     margin-top: 0px;
 }
+
+
 /*table*/
+
 table {
     border: none;
     background-color: black;
     border-collapse: collapse;
-
 }
 
 td {
@@ -47,19 +49,21 @@ h1 {
     font-family: 'Fondamento', cursive;
     margin-bottom: 0px;
 }
-h2{
+
+h2 {
     font-family: 'Fondamento', cursive;
 }
-.rhs{
+
+.rhs {
     text-align: left;
     float: center;
     width: 48%;
     left: 26%;
     font-family: 'Indie Flower', cursive;
     margin-bottom: 0px;
-   
 }
-.lhs{
+
+.lhs {
     text-align: right;
     float: center;
     width: 48%;
@@ -68,7 +72,8 @@ h2{
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.wotasub{
+
+.wotasub {
     text-align: right;
     float: center;
     width: 48%;
@@ -76,21 +81,24 @@ h2{
     font-family: 'Rochester', cursive;
     margin-bottom: 0px;
     margin-top: 0px;
-
 }
 
 h4 {
     color: darkred;
 }
-hr{
+
+hr {
     color: red;
 }
 
-col{
+col {
     padding: 0;
     margin: 0;
 }
+
+
 /* Dropdown Button */
+
 .dropbtn {
     background-color: black;
     color: red;
@@ -101,19 +109,26 @@ col{
     text-align: center;
 }
 
+
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: black;
     color: darkred;
 }
 
+
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -123,7 +138,9 @@ col{
     text-align: center;
 }
 
+
 /* Links inside the dropdown */
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -131,7 +148,9 @@ col{
     display: block;
 }
 
+
 /* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
     background-color: red
 }
@@ -157,10 +176,10 @@ col{
     cursor: pointer;
     text-align: center;
     padding: 8px;
-
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
     background-color: black;
     color: darkred;
 }
@@ -175,10 +194,11 @@ p {
     width: 60%;
     float: center;
     left: 20%;
-
 }
 
+
 /* Dropdown Button */
+
 .dropbtn {
     background-color: black;
     color: red;
@@ -189,19 +209,26 @@ p {
     text-align: center;
 }
 
+
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: black;
     color: darkred;
 }
 
+
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -211,7 +238,9 @@ p {
     text-align: center;
 }
 
+
 /* Links inside the dropdown */
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -219,7 +248,9 @@ p {
     display: block;
 }
 
+
 /* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
     background-color: #9f0000
 }
@@ -234,10 +265,8 @@ hr {
     border: 0;
     border-top: 1px solid darkred;
     margin: 1em 0;
-    padding: 0; 
+    padding: 0;
 }
-
-
 
 li {
     display: inline;
@@ -253,7 +282,8 @@ li {
     text-align: center;
 }
 
-.butt:hover, .butt:focus {
+.butt:hover,
+.butt:focus {
     background-color: black;
     color: #F3D42A;
     border: solid 1px red;
@@ -269,38 +299,37 @@ li {
     text-align: center;
 }
 
-.butti:hover, .butti:focus {
+.butti:hover,
+.butti:focus {
     background-color: black;
     color: red;
     border: solid 1px #F3D42A;
 }
 
-.bloodyeverything{
+.bloodyeverything {
     background-color: black;
 }
 
 .footer {
-  position: absolute;
-  bottom: 5px;
-  left: 5px;
-  padding: 1rem;
-  color: darkred;
-  text-align: left;
-  
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 1rem;
+    color: darkred;
+    text-align: left;
 }
+
 .footer2 {
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  padding: 1rem;
-  color: darkgreen;
-  text-align: right;
-  
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 1rem;
+    color: darkgreen;
+    text-align: right;
 }
 
-
-.intel1{
-    float: left; 
+.intel1 {
+    float: left;
     width: 48%;
     margin-left: 10px;
     margin-right: 10px;
@@ -311,32 +340,33 @@ li {
     font-family: 'Garamond';
 }
 
-.comm{
+.comm {
     clear: both;
 }
 
-.ranks{
-    border: solid 1px red; 
+.ranks {
+    border: solid 1px red;
     border-collapse: collapse;
-    align-content: center; 
+    align-content: center;
     text-align: left;
 }
 
-.rank{
+.rank {
     width: 12%;
-    border: solid 1px red; 
+    border: solid 1px red;
     border-collapse: collapse;
-    align-content: center; 
+    align-content: center;
     text-align: left;
 }
 
-.fw{
-    border: solid 1px red; 
+.fw {
+    border: solid 1px red;
     border-collapse: collapse;
-    align-content: center; 
+    align-content: center;
     text-align: center;
 }
-.center{
+
+.center {
     border: solid 1px red;
     margin: 0 auto;
     width: 100%;
@@ -344,21 +374,24 @@ li {
     text-align: center;
 }
 
-.c2{
+.c2 {
     margin: 0 auto;
     width: 10%;
     text-align: center;
     float: center;
 }
 
-  .modal-header, .close, .modal-footer, .modal-body {
-      background-color: rgba(0, 0, 0, 1);
-      color:red !important;
-      text-align: center;
-      border: 0px;
-      margin: 0px;
-  }
+.modal-header,
+.close,
+.modal-footer,
+.modal-body {
+    background-color: rgba(0, 0, 0, 1);
+    color: red !important;
+    text-align: center;
+    border: 0px;
+    margin: 0px;
+}
 
-  .form-control{
-      text-align: center;
-  }
+.form-control {
+    text-align: center;
+}
