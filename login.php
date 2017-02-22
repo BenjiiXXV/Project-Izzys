@@ -17,7 +17,7 @@
 
 <div class="container">
   <!-- Login Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="loginmodal" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
@@ -39,16 +39,12 @@
             <button type="submit" class="button col-sm-12" style="button"><span class="glyphicon glyphicon-off"></span> Login</button>
           </div>
           </form>
-          <div>
-            <button type="button" class="button col-sm-6 pull-right" style="button" data-target="#myModal2">Sign up instead</button>
-            <button type="" class="button col-sm-6 pull-left" style="button" data-dismiss="modal">Forgot Password</button>
-          </div>
       </div>
     </div>
   </div> 
  </div>
    <!-- Registry Modal -->
-  <div class="modal fade" id="myModal2" role="dialog">
+  <div class="modal fade" id="registrymodal" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
       <div class="modal-content">
