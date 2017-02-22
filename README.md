@@ -1,3 +1,3 @@
 # Project-Izzys
 Project Izzys
-Izzy's project.
+<br><br><hr>Izzy's project.
