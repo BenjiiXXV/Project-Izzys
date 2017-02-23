@@ -7,20 +7,12 @@
 <head>
 </head>
 <body>
-    <nav class="meny navbar-toggleable-md navbar navbar-right" style="height:200px;">
+    <nav class="meny navbar-toggleable-md navbar navbar-right">
         <div class="container-fluid">
             <!-- Collect the nav links, forms, and other content for toggling -->
            
                 <ul class="nav navbar-nav">
-                    <li><a href="Greenberg.php" class="button" style="button">FEATURED PRIDE:<br>Greenberg's Experiment</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="button dropdown-toggle" data-toggle="dropdown" role="button">BACKBURNERS<br>Idle Projects</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="gol.php">DRAGON'S<br>LEGACY</a></li>  
-                            <li><a href="wota.php">WAR OF<br>THE ANGELS</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="dead.php" class="button" style="button">GRAVEYARD:<br>Dead Projects</a></li>
+                    <li><a href="index.php" class="button" style="button">BACK<br>to HOME</a></li>
                     <li><button onclick="login()" class="button" style="button" id="mebutton"></button></li>
                     <li><button onclick="register()" class="button" style="button" id="me2button"></button></li>
                 </ul>
@@ -28,6 +20,7 @@
         </div><!-- /.container-fluid -->
     </nav>
 </body>
+
 <script>
 
          /* if (user is logged on{
@@ -57,4 +50,3 @@
                 }
     //}
 </script>
-

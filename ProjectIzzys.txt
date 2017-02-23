@@ -2,8 +2,10 @@
 	
 	- Merge to bootsstrap
   	- Make open chapter visible in url (without refresh)
-  	- Change loadComment() to Reply() and include username, no longer ask for email address
+  	- Change loadComment() include username, no longer ask for email address (keep carbon copy checkbox)
 	- Add (missing) functionalities
+	- Add back to top button to chapters ("<a href="#top">Go to top</a>" at bottom, <p> with id="top" at top!(spawn only if chapter active?))
+	- SEPARATE CSS FILES
 
 //TODO DB
 	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
@@ -45,13 +47,14 @@ Functionalities to realize:
 	- Ability to change a user's rank (dropdown)
 	- Ability to change a story's minimum rank (dropdown)
 
-4) Function Reply()
+4) Function loadComment()
 	- FOLLOWER rank and higher
 	- Small form on every page
 	- Sends an email to a designated email address
 	- Tagged with username
 	- Send copy to user (optional(checkbox))
 	- Save copy to database
+	- Display comments (on own page) on profile
 
 5) Navigation
 	- Navigate to main pages from homepage
