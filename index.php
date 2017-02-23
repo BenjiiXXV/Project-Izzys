@@ -1,26 +1,13 @@
 <?php
   require("head.php");
-  include("mm2.php");
+  include("homepageNav.php");
 ?>
 <html>
   <head>
     <title>Izzy's Epicailty</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
-  
-  <style>
-    body  {
-        background-image: url("img/heartwelcome.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position-x: center;
-        background-position-y: top;   
-        background-size: 100%;
-        margin-bottom: 0px;
-        margin-top: 0px;
-         }
-         
-  </style>
- <body class="bloodyeverything">
+ <body class="mainpageImage">
  </body>
       <footer>
       <div class="footer">

@@ -1,0 +1,33 @@
+.rhs{
+    text-align: left;
+    float: center;
+    width: 48%;
+    left: 26%;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0px;
+   
+}
+.lhs{
+    text-align: right;
+    float: center;
+    width: 48%;
+    right: 26%;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.wotasub{
+    text-align: right;
+    float: center;
+    width: 48%;
+    right: 26%;
+    font-family: 'Rochester', cursive;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.headline{
+    font-family: 'Fredericka the Great', cursive; 
+    margin-top: 0px;
+}

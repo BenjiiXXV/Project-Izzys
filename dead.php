@@ -60,7 +60,7 @@
                   var str = this.responseText;
                   str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
                   str = str.replace(new RegExp("'", 'g'), "&#039;");
-                  document.getElementById("entr").innerHTML = decodeURIComponent(str);
+                  document.getElementById("entr").innerHTML =str;
                   }
                 };
                 xhttp.open("POST", "dead/"+fileName+".php", true);

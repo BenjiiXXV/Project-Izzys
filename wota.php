@@ -6,6 +6,7 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Fondamento|Fredericka+the+Great|Indie+Flower|Rochester" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/wota.css">
         <title>WAR OF THE ANGELS</title>
     </head>
     <body class="bloodyeverything" id="top">
@@ -13,7 +14,7 @@
     <center>
         <h3 class="rhs">If I would just tell you my side, you would never understand.</h3>
         <h3 class="lhs">No, I have to tell you everything.</h3>
-        <h1 style="font-family: 'Fredericka the Great', cursive; margin-top: 0px;">WAR OF THE ANGELS</h1>
+        <h1 class="headline">WAR OF THE ANGELS</h1>
         <h2 class="wotasub">
                 ~In honor of the real angels, unknown and unloved.~<br>	 		 	 
                 ~In honor of the hidden heroes of our terrible world.~<br>				
@@ -62,7 +63,7 @@
                 var str = this.responseText;
                 str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
                 str = str.replace(new RegExp("'", 'g'), "&#039;");
-                document.getElementById("entr").innerHTML = decodeURIComponent(str);
+                document.getElementById("entr").innerHTML = str;
                
                 }
               };

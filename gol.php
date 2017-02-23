@@ -6,13 +6,14 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Covered+By+Your+Grace|Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/gol.css">
         <title>GANGS OF LETUM</title>
     </head>
     <body class="bloodyeverything">
       <div class="col-sm-12">
         <center>
-            <h1 style="font-family: 'Cinzel Decorative', cursive; font-size: 100px;">GANGS OF LETUM</h1>
-            <h2 style="font-family: 'Covered By Your Grace', cursive;">THE DRAGONS LEGACY</h2>
+            <h1 class="headline">GANGS OF LETUM</h1>
+            <h2 class="subtitle">THE DRAGONS LEGACY</h2>
             <h4>Gangs of Letum was created as an interactive project between Izzy and her readers. 
             To make this possible, there has been put a lot of time and effort into creating characters, gangs
             and the city. I've included most of the prep files under the [LORE] section, but keep in mind that
@@ -22,7 +23,7 @@
             <ul>
             <li>
             <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn">[EPIC LORE]<br>Background intel</button>
+              <button onclick="lore()" class="dropbtn">[EPIC LORE]<br>Background intel</button>
               <div id="myDropdown" class="dropdown-content">
                 <a onclick="loadDoc('History Letum')">HISTORY<br>OF LETUM</a>
                 <a onclick="loadDoc('Gang Intel')">GANG<br>INFORMATION</a>
@@ -58,7 +59,7 @@
             </div></div></li>
             </ul>
             
-            <p id="entr" style="font-family: 'Merriweather', serif;"></p>
+            <p id="entr"></p>
             <p id="bottom"></p>
             <p id="comm" class="comm"></p>
             <br><br><br><br><br><br><hr>
@@ -89,7 +90,7 @@
                   var str = this.responseText;
                   str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
                   str = str.replace(new RegExp("'", 'g'), "&#039;");
-                  document.getElementById("entr").innerHTML = decodeURIComponent(str);
+                  document.getElementById("entr").innerHTML = str;
                   }
                 };
                 xhttp.open("POST", "gol/"+fileName+".php", true);
@@ -102,8 +103,8 @@
                 }
         }
 
-      //Dropdown menu
-      function myFunction() {
+      //lore Dropdown menu
+      function lore() {
           document.getElementById("myDropdown").classList.toggle("show");
       }
       //Tom Bankers Dropdown menu 

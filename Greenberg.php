@@ -6,6 +6,7 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/Greenberg.css">
     <title>Greenberg's Experiment</title>
   </head>
   <body class="bloodyeverything">
@@ -58,7 +59,7 @@
                   var str = this.responseText;
                   str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
                   str = str.replace(new RegExp("'", 'g'), "&#039;");
-                  document.getElementById("entr").innerHTML = decodeURIComponent(str);
+                  document.getElementById("entr").innerHTML = str;
                   }
                 };
                 xhttp.open("POST", "ge/"+fileName+".php", true);
