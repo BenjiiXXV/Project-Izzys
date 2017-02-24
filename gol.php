@@ -5,10 +5,11 @@
 ?>
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Covered+By+Your+Grace|Merriweather" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/gol.css">
-        <title>GANGS OF LETUM</title>
-    </head>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Covered+By+Your+Grace|Merriweather" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/gol.css" />
+    <title>GANGS OF LETUM</title>
+ </head>
     <body class="bloodyeverything">
       <div class="col-sm-12">
         <center>
@@ -24,7 +25,7 @@
                 <li>
                 <div class="dropdown">
                   <button onclick="lore()" class="dropbtn">[EPIC LORE]<br>Background intel</button>
-                  <div id="myDropdown" class="dropdown-content" style="width:137px;" >
+                  <div id="myDropdown" class="dropdown-content" style="z-index:10; width:137px;" >
                     <button class="button" onclick="loadDoc('gol/','History Letum')">HISTORY OF LETUM</button>
                     <button class="button" onclick="loadDoc('gol/','Gang Intel')">GANG INFORMATION</button>
                     <button class="button" onclick="loadDoc('gol/','GoL Downloads')">MISC. DOWNLOADS</button>
@@ -34,7 +35,7 @@
                 <li>
                   <div class="dropdown">
                     <button onclick="Bankers()" class="dropbtn">[CHRONICLES]<br>Tom Bankers</button>
-                    <div id="dropBankers" class="dropdown-content" style="width:131px;">
+                    <div id="dropBankers" class="dropdown-content"  style="z-index:10; width:131px;">
                       <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 01')">ACT ONE</button>
                       <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 02')">ACT TWO</button>
                       <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 03')">ACT THREE</button>
@@ -53,7 +54,7 @@
                 <li>
                   <div class="dropdown">
                     <button onclick="Legacy()" class="dropbtn">[CHRONICLES]<br>Dragon's Legacy</button>
-                    <div id="dropLegacy" class="dropdown-content" style="width:137px;">
+                    <div id="dropLegacy" class="dropdown-content" style="z-index:10; width:137px;">
                       <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 01')">ACT ONE</button>
                       <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 02')">ACT TWO</button>
                       <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 03')">ACT THREE</button>
