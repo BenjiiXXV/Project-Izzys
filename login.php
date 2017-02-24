@@ -1,10 +1,3 @@
-<?php
-  require("head.php");
-?>
-<html>
-<head>
-
-</head>
 
 <div class="container">
   <!-- Login Modal -->

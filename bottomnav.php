@@ -1,11 +1,5 @@
-<?php 
-  require("head.php");
-?>
 
-<html>
-<head>
-</head>
-<body>
+
     <nav class="bottommenu navbar-toggleable-md navbar navbar-right">
         <div class="container-fluid">
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,5 +10,5 @@
            
         </div><!-- /.container-fluid -->
     </nav>
-</body>
+
 
