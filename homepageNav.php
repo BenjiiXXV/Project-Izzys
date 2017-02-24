@@ -4,8 +4,6 @@
 ?>
 
 <html>
-<head>
-</head>
 <body>
     <nav class="meny navbar-toggleable-md navbar navbar-right" style="height:200px;">
         <div class="container-fluid">
@@ -16,8 +14,8 @@
                     <li class="dropdown">
                         <a href="#" class="button dropdown-toggle" data-toggle="dropdown" role="button">BACKBURNERS<br>Idle Projects</a>
                         <ul class="dropdown-menu">
-                            <li><a href="gol.php">GANGS<br>OF LETUM</a></li>  
                             <li><a href="wota.php">WAR OF<br>THE ANGELS</a></li>
+                            <li><a href="gol.php">GANGS<br>OF LETUM</a></li>  
                         </ul>
                     </li>
                     <li><a href="dead.php" class="button" style="button">GRAVEYARD:<br>Dead Projects</a></li>

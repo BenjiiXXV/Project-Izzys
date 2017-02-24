@@ -21,42 +21,48 @@
             <br>(Click any part to explore it)</h4>
 
             <ul>
-            <li>
-            <div class="dropdown">
-              <button onclick="lore()" class="dropbtn">[EPIC LORE]<br>Background intel</button>
-              <div id="myDropdown" class="dropdown-content">
-                <a onclick="loadDoc('History Letum')">HISTORY<br>OF LETUM</a>
-                <a onclick="loadDoc('Gang Intel')">GANG<br>INFORMATION</a>
-                <a onclick="loadDoc('GoL Downloads')">MISCELLANEOUS<br>DOWNLOADS</a>
+              <li>
+              <div class="dropdown">
+                <button onclick="lore()" class="dropbtn">[EPIC LORE]<br>Background intel</button>
+              <div id="myDropdown" class="dropdown-content" style="width:137px;" >
+                  <button class="button" onclick="loadDoc('gol/','History Letum')">HISTORY OF LETUM</button>
+                  <button class="button" onclick="loadDoc('gol/','Gang Intel')">GANG INFORMATION</button>
+                  <button class="button" onclick="loadDoc('gol/','GoL Downloads')">MISC. DOWNLOADS</button>
+                </div>
               </div>
-            </div>
-            </li>
-            <li><div class="dropdown">
-              <button onclick="Bankers()" class="dropbtn">[CHRONICLES]<br>Tom Bankers</button>
-              <div id="dropBankers" class="dropdown-content">
-              <a onclick="loadDoc('[TB] Act 01')">ACT ONE</a>
-              <a onclick="loadDoc('[TB] Act 02')">ACT TWO</a>
-              <a onclick="loadDoc('[TB] Act 03')">ACT THREE</a>
-              <a onclick="loadDoc('[TB] Act 04')">ACT FOUR</a>
-              <a onclick="loadDoc('[TB] Act 05')">ACT FIVE</a>
-              <a onclick="loadDoc('[TB] Act 06')">ACT SIX</a>
-              <a onclick="loadDoc('[TB] Act 07')">ACT SEVEN</a>
-              <a onclick="loadDoc('[TB] Act 08')">ACT EIGHT</a>
-              <a onclick="loadDoc('[TB] Act 09')">ACT NINE</a>
-              <a onclick="loadDoc('[TB] Act 10')">ACT TEN</a>
-              <a onclick="loadDoc('[TB] Act 11')">ACT ELEVEN</a>
-              <a onclick="loadDoc('[TB] Act 12')">ACT TWELVE</a>
-            </div></div></li>
-            <li><div class="dropdown">
-              <button onclick="Legacy()" class="dropbtn">[CHRONICLES]<br>Dragon's Legacy</button>
-              <div id="dropLegacy" class="dropdown-content">
-              <a onclick="loadDoc('[DL] Act 01')">ACT ONE</a>
-              <a onclick="loadDoc('[DL] Act 02')">ACT TWO</a>
-              <a onclick="loadDoc('[DL] Act 03')">ACT THREE</a>
-              <a onclick="loadDoc('[DL] Act 04')">ACT FOUR</a>
-              <a onclick="loadDoc('[DL] Act 05')">ACT FIVE</a>
-              <a onclick="loadDoc('[DL] Act 06')">ACT SIX</a>
-            </div></div></li>
+              </li>
+              <li>
+                <div class="dropdown">
+                <button onclick="Bankers()" class="dropbtn">[CHRONICLES]<br>Tom Bankers</button>
+                <div id="dropBankers" class="dropdown-content" style="width:131px;">
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 01')">ACT ONE</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 02')">ACT TWO</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 03')">ACT THREE</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 04')">ACT FOUR</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 05')">ACT FIVE</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 06')">ACT SIX</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 07')">ACT SEVEN</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 08')">ACT EIGHT</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 09')">ACT NINE</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 10')">ACT TEN</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 11')">ACT ELEVEN</button>
+                  <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/','[TB] Act 12')">ACT TWELVE</button>
+              </div>
+              </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                <button onclick="Legacy()" class="dropbtn">[CHRONICLES]<br>Dragon's Legacy</button>
+                <div id="dropLegacy" class="dropdown-content" style="width:137px;">
+                  <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 01')">ACT ONE</button>
+                  <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 02')">ACT TWO</button>
+                  <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 03')">ACT THREE</button>
+                  <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 04')">ACT FOUR</button>
+                  <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 05')">ACT FIVE</button>
+                  <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/','[DL] Act 06')">ACT SIX</button>
+              </div>
+              </div>
+              </li>
             </ul>
             
             <p id="entr"></p>
@@ -66,43 +72,7 @@
             <footer style="color:darkred;">THIS WEBSITE WOULD NOT HAVE BEEN POSSIBLE WITHOUT THE HELP OF MY FRIENDS AND FAMILY.</footer>
         </center>
     </div>
- <script>
-        //loads storychapter segments
-        var visible = false;
-        var currentChapter;
-        function loadDoc(fileName) {
-              
-              if (visible == false || currentChapter != fileName) {
-                var xhttp2 = new XMLHttpRequest();
-                xhttp2.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    var bottommenu = this.responseText;
-                      document.getElementById("bottom").innerHTML = bottommenu;
-                  }
-                };
-                xhttp2.open("GET", "bottomnav.php", true);
-                xhttp2.send();
-                currentChapter = fileName;
-                $('#story').val(fileName);
-                var xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function() {
-                  if (this.readyState == 4 && this.status == 200) {
-                  var str = this.responseText;
-                  str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
-                  str = str.replace(new RegExp("'", 'g'), "&#039;");
-                  document.getElementById("entr").innerHTML = str;
-                  }
-                };
-                xhttp.open("POST", "gol/"+fileName+".php", true);
-                xhttp.send();
-                visible = true;
-              } else {
-                document.getElementById("entr").innerHTML = "";
-                document.getElementById("bottom").innerHTML = "";
-                visible = false;
-                }
-        }
-
+<script>
       //lore Dropdown menu
       function lore() {
           document.getElementById("myDropdown").classList.toggle("show");
