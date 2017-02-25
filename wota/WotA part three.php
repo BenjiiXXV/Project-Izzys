@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>[Part Three]
+[Part Three]
 
 The clock struck twelve and the church bells rang as Lady Seren Velazquez crossed the Dam square. She ignored the numerous cyclists, causing them to swerve as they yelled at her while she entered the Kalverstreet. She walked slower than she usually would have done, but as the street had more people on a squared yard than legally allowed, she couldn’t go much faster anyway. After a while she reached a small, mostly hidden church that most people seemed not to notice. Their eyes would glide from the store on its left to the one on its right, as if the catholic building wasn’t really there. Seren entered it and walked up to the front rows where she sat down. A high-ranked police officer nearby finished his prayers and sat down beside her.
 ‘What has Andres done this time?’ Seren asked after a silence. They spoke in barely more than a whisper.
@@ -81,4 +81,4 @@ Paulina swallowed, she didn’t know. Achilleo looked at her.
 ‘Hunt down beloved Teddy McGuire and kill him,’ Seren decided. ‘That’s justified. Kill him without magic, if you can. It would save you a lot of effort when traveling home. Now, if you will excuse me, I have an appointment with Lord Mallory Andrews of Amsterdam. I’ve been informed he’s caught new fish.’
 Seren turned around and left as the pretend newlyweds entered the train station in search for their train.
 
-</body>
+

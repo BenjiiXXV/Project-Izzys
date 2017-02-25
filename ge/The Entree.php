@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>THE ENTREE
+THE ENTREE
 On the seventeenth of June I received an invitation for a formal buffet dinner at the mayor’s private summer estate that very same evening. I spent hours getting my hair right, then put on my best dress and prettiest shoes - with matching purse - and got picked up by a fancy black car and a driver that didn’t say a word. I was used to this; my parents’ driver never said a word either while he drove me around town. I was rather excited; it wasn’t common to dine with the mayor, even for people in my status, let alone in his private residence. 
 The driver took me to a place I had seen on TV, though never up close. The car slowly made its way through a set of heavy iron gates with brass detailing that opened automatically when he drove up to them and closed behind him right away. He drove all the way up to the steps leading to a big, oak double door where the turning circle allowed the car to pull up sideways. At that exact moment the large doors opened up and another man came through them, opened the car door for me and helped me out and taking my purse.
 ‘Welcome!’ the man happily exclaimed. ‘My name is Howard Jackson; I’ll be your host this evening. If there’s anything you need, don’t hesitate to ask. Allow me to escort you to the dining room.’ He turned around and climbed the steps to the front door. Struggling not to trip on my dress I tried to keep up with him as he passed the front door into the entrance hall.
@@ -62,4 +62,3 @@ Sarah groaned and rolled over, then slowly pulled herself up straight and sat up
 ‘Why did you jump?’ she asked, crawling deeper into my hold.
 ‘I couldn’t risk touching the floor, could I?’ She smiled weakly and dozed off. I Realized there was nothing else we could do and I fell asleep not much later.
 
-<body>

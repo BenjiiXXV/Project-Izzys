@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT THREE: WHAT COMES AROUND... 
+ACT THREE: WHAT COMES AROUND...
 
 Despite the court hall victory, the atmosphere at the Aetius estate could not be described as festive. Given the continuing absence of Tom Bankers and the situation with the Wither, there wasn’t much time to celebrate. They had barely been at the mansion for five minutes or Megan had already switched back into her usual, intimidating outfit and was pocketing her knives and guns as she walked back out of the bedroom.
 ‘I need to borrow your car,’ she told Valerius, who was already throwing his keys in her direction.
@@ -45,4 +45,4 @@ It took the duo barely half an hour to cross the rest of the city to the suburba
 ‘Hey Joshi,’ she said.
 ‘Hey Nicky, what’s up?’
 ‘We need another makeshift delayed detonator...’
- </body>
+

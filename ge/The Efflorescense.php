@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>THE EFFLORESCENCE
+THE EFFLORESCENCE
 The following day started fairly similar, though I’d slept slightly better. The first day had left me exhausted and the guards seemed to leave us alone at night. Sarah had crawled into my bed; I’d forgotten about her fear of the dark and had dropped into my bed as soon as we had been brought back to our rooms. She had invited herself and I didn’t stop her. Truth be told, I actually liked having her in my arms. It made me feel less alone.
 During breakfast Howard showed us the fresh news broadcast from that morning, which ended up being more of a recap from last night’s news. No new developments had been made, so they showed the mayor’s speech again. Then they repeated how the cars had been found and how the security footage had not yielded anything.  Meanwhile at the table, Gary was still missing. The worst of scenarios started forming in my head and I could tell I wasn’t the only one. The company at the table seemed quieter. Especially Nicky, who spent most of the time looking at her plate and trying to go unnoticed. Even the always chatty Thalia seemed at a loss for words. The severity of our situation seemed to slowly seep into our awareness, and it didn’t improve the atmosphere.
 After breakfast we were brought to the gym. Per the recommendation of Simon and Jaylynn everyone participated in the work-out, which was led by the suggestions of the boys that seemed to know what they were doing. 
@@ -172,5 +172,3 @@ David leaned in, awkwardly half hanging over Simon’s lap as he responded.
 ‘Why are you being so negative?’ Jaylynn asked. ‘I mean, I realize I’m not the brightest, usually. But this attitude is depressing.’
 ‘Oh, I don’t know,’ I snapped. ‘Perhaps the fact that I’m having breakfast with guns aimed at my head or that they cut off my fucking finger. You tell me.’
 ‘That’s fair,’ Simon reasoned. ‘But it’s less fair that you’re taking it out on us. Take it out on the workout machines, later.’
-
-<body>

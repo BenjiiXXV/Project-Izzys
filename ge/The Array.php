@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>THE ARRAY
+THE ARRAY
     A long and restless night later we were rudely awoken by someone banging on our door.
 ‘Escort for breakfast,’ a deep voice chanted from behind it. ‘Be ready and don’t try anything stupid.’ I rolled onto my back and yawned as I stretched my arms while Sarah looked at me with a half-smile.
 ‘I’m pretty sure I slept better than you did,’ she said.
@@ -145,4 +145,3 @@ Howard was, however. He was lazily resting his elbow on top of the TV that was s
 ‘Yeah, I think I’ll be using that time more productively from now on. Provided we get more; this might be over by tomorrow.’
 ‘I wouldn’t count on that,’ I said.
 
-<body>

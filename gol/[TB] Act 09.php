@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT NINE: MARE NOSTRUM (PART TWO)
+ACT NINE: MARE NOSTRUM (PART TWO)
 <i>It took the trio near forty five minutes to reach The Avalon Affinity. After half an hour Nicky’s now untreated wound had taken its toll and she could no longer keep herself afloat. Much to her dislike she had spent the last fifteen minutes being dragged onwards by Danilo and Jennifer, who with great effort managed to get all three of them to The Avalon Affinity where Valerius was kind enough to help them aboard. The Avalon Affinity was a large sailing yacht and felt a lot more luxurious than The Little Seraph, which was a mere small motor yacht.
 ‘Welcome to the AA,’ he said as he stretched his arm and pulled Nicky in. Danilo and Jennifer managed to get onto the ship by themselves. The three observed the yacht in admiration.
 ‘If this is the AA I won’t mind another DUI,’ Danilo said. Valerius grinned, Jennifer threw an angry look in Danilo’s direction and Nicky seemed confused. Her confusion lasted only shortly, however, as her wound now seemed to hurt her so much she could barely keep standing. She lost her balance and fell over but Valerius had a quick reflex and was still near her, and caught her.
@@ -52,4 +52,4 @@ Nicky woke up as the engine silenced and the boat was docked. Jennifer helped he
 ‘You ain’t taking her on my watch,’ said Nicky. She swiftly drew Megan’s gun from her holster and aimed it at Adessi.
 ‘No, it’s okay,’ said Megan. ‘I’ll go along. I’ll be back out in no time.’ Her hands were cuffed behind her back and she got in the back of the police car.
 ‘Aetius: tell Thirza that Judas came by,’ she said mysteriously through the open window. Valerius nodded and whispered something to Jeeves who then entered the house. The police car drove off, with Adessi smiling broadly and Megan winking at the group before the car reached the corner and drove out of sight.</i>
-</body>
+

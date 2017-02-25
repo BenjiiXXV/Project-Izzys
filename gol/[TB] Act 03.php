@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT THREE: MONEY FOR NOTHING
+ACT THREE: MONEY FOR NOTHING
 
 <i>It was 4am when Gregory arrived back at the Sexy Stuns brothel. Even at this odd hour there was plenty of activity here; Sexy Stuns was the only 24/7 brothel in town, but as its owner Gregory could access the private areas, most of which were vacant at these hours, as well as he had his office in the basement.
 His office was in the back of the basement and his footsteps echoed off the concrete walls as he walked through the hallways stacked with furniture. He could hear voices up ahead. Entering the office revealed that his wife Mia had decided to spend the night at his office with their son George, who was asleep on the couch. Mia had been talking with the Makaine sisters that usually ran the brothel in his absence.
@@ -26,4 +26,4 @@ Tom managed to find his way through wires and machinery that took most of Joshi�
 ‘Thanks,’ Tom said. It was a lot of information to process.
 ‘Oh, one more thing. If you need any advice: Danilo was here earlier when I got the mail, he said he had a few ideas. Might be worth checking.'
 ‘Thanks again,’ Tom said. With great effort he managed to find his way back to the apartment’s entrance without knocking anything over and found himself back on the street in a matter of minutes.
-</body>
+

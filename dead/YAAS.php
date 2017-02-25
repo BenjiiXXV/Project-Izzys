@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>YAAS (Yet Another Apocalypse Story)
+YAAS (Yet Another Apocalypse Story)
 /* Short part of a survival concept i wrote for a Lord-of-the-Flies kind of story. I have more on paper that i could consider taking over an putting on here, but this was enough for the most trusted members of my Betateam to veto the concept. */
 
 We slept. Most of us, anyway,  as there wasn’t much else to do and for some reason driving for hours makes you tired. Even if you’re not the one behind the wheel. Perhaps it was just the ungodly hour we were at. However may be, most of us were asleep and those that were not kept quiet.
@@ -23,4 +23,3 @@ It was a near two hours since our last stop. The coffee cups had been emptied, t
 ‘Eh, shit,’ I said. I took off my sweatervest and threw it onto the table as if that would help. Evanna got up to assess the damage and so did I, but the bus made another sharp turn throwing us back onto our seats and knocking over Evanna’s bottle, flooding the rest of the table, our backpacks, and Autumn. She slept through it, however, as did the rest of the passengers.
 I tried making my way to the front of the bus to ask for some paper towels to clean up the mess. We weren’t far from the front, but given the driver’s new approach it was a challenge nonetheless. 
 
-<body>

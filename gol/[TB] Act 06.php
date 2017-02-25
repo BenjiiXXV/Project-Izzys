@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT SIX: MOULDING THE KEY (PART TWO)
+ACT SIX: MOULDING THE KEY (PART TWO)
 
 <i>Tom broke the connection. Jennifer looked at the clock and sighed. It was too early to get up, but now that she had an assignment she had very little choice. She took a quick shower and a light breakfast during which she posted a message on the Black Dragons forum only visible for the members she commanded. It asked of anybody available to be at her house, at twelve, armed and ready.
 Jennifer lived close to the cathedral and could see its clock from her living room windows. As the clock hit twelve, eight of her members had arrived.
@@ -48,4 +48,4 @@ Tom decided to get to New Hope Hospital just after one o’clock. He didn’t li
 ‘Yes, it does. Not every source is reliable in every case. She was right about an assassination attempt on Megan that evening, but that doesn’t mean her perception of truth on the outcome of last night aligns with the facts.  I happen to know the Valdez’ source and that source is not reliable. Besides, I thought you didn’t trust the Valdez girl?’
 ‘I don’t, but her Intel on the murder plan seemed reliable.’
 ‘It’s remarkable that you think I killed Megan while you were told Gregory would commit the attempt. Listen, of course I know more, but I also know you don’t trust me and nothing I can tell you will make you change your mind about that. Why don’t you check it out for yourself? They’ve left the scene untouched, you can head for Megan’s house and check it out, or you can head for her office and see if she’s there. Or, you know, you could have a little more trust in the way she does business alike she has for the past couple of years and just carry on with your assignment. It’s up to you.’ Aetius turned around and headed for the elevators, leaving Tom behind in the corridor.
-</body>
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>MELLODY CONROY
+MELLODY CONROY
 /*Crime story concept about the father of a girl that gets caught in battles with government agencies*/
 
 ‘Mellody, how‘re ye doin’?’ I asked, fully aware that driving while on the phone isn’t a good idea.
@@ -96,4 +96,4 @@ I used my mobile cellphone to call a number that I found online. It seemed to be
 ‘Could hookye up with a nice handgun then. Conceal it nicely and nobody’ll ask about it.’
 ‘Ehm, okay?’
 ‘Meet me at the Bachman Lake Park, below Storey Lane, in one hour, come alone.’ The connection was broken. I quickly looked up the directions towards the mentioned place, wiped the browser history and got back in my minivan.
-<body>
+

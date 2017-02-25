@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT TWELVE: ODDS AND EVENS
+ACT TWELVE: ODDS AND EVENS
 
 <i>Valerius drove Mia to the Dragons’ headquarters. It was not conventional to bring outsiders to the main headquarters; usually appointments were made elsewhere but this was not a usual appointment.
 ‘Don’t talk to anyone but the people in the main office,’ Valerius told Mia. ‘And don’t make eye contact with anyone but the people you’re talking to. These people do not trust you, and they will want to harm you.’
@@ -86,4 +86,4 @@ It was early in the morning as Megan entered the visitors’ room once again wit
 ‘No, I won’t allow that. You’re not alone in this, though. Where’s she now?’ 
 ‘With Daisylisa and Thirza, at your house.’
 ‘I rest my case, you’ll do fine. Thirza and I are here for you.’</i>
-</body>
+

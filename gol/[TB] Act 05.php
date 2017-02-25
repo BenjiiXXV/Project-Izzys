@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT FIVE: MOULDING THE KEY (PART ONE)
+ACT FIVE: MOULDING THE KEY (PART ONE)
 
 Tom had been sitting in the car for ten full minutes with his phone in his hands, gazing at the screen that had turned black. Valerius Aetius knew more about how and where Megan was, so that was worth checking out. However, he didn’t believe Megan was truly dead and she knew how to survive. Contacting her directly or discussing it with Valerius on the phone could be dangerous to all three of them, and Tom had his mission to focus on; even if Megan was dead, another shipment of guns in the hands of the Phoenix would do nobody good. If he was going to meet with Valerius, he had to make sure his team would be able to prepare everything needed to blow the ship up.
 He scrolled down his contacts list until he found Nicky’s number, he would call her first. The phone was picked up right away.
@@ -64,4 +64,4 @@ She descended to the lower deck where the second man was coming to. She jumped o
 She climbed back to the bridge, sat down in the wheelman’s chair and accelerated. Only then did she feel the piercing pain of her knife which was still dangling from her shoulder so she pulled it out and set sail for pier nineteen.</i>
 
 <p style="float: right;">(Jennifer’s conquest will be narrated in act six.)</p>
-</body>
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>[Part Four]
+[Part Four]
     
 At that moment numerous neutral angels had gathered on the Scandinavian peninsula. They met on a small island in the Kalix river, just north of the Swedish town Vallen, not far from the border with Finland. It was a small, uninhabited island with mostly trees, which the couple dozen angels that had showed up used as cover. The neutral angels were those that refused to side with either Dominick or Lydia and they had become a third party during the deviation. A minority, and mostly left alone in a mutual sense of respect. Only neutral angels that provoked an outrage ended up in the crosshairs of either dark or light angels. They commonly lived far from the light and dark tribes, to make sure they were not mistaken for enemy angels and to ensure their peace and quiet. Only the angelic warfare had escalated beyond the ordinary and more neutrals had fallen victim to matters they had no business in, which is exactly why this meeting had been called.
 ‘Friends,’ said a deep voice. Tarben Gautam had spoken without raising his voice but the crowd had quieted down at once. He exuded a sense of security that accredited him unspoken authority.
@@ -51,4 +51,4 @@ From the corner of his eye he saw the purple sun that had been his hope for so l
 
 
 
-</body>
+

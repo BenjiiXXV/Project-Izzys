@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT TEN: WINDS OF CHANGE
+ACT TEN: WINDS OF CHANGE
 
 <i>‘Miss Seraph?’ 
 Thirza sat in Megan’s chair at the office. Evidently she was aware of the events that had taken place that evening and even though it neared four in the morning there was no sign of exhaustion in her countenance as she sat there, with her back towards the entrance. She had her eyes closed but Valerius did not know that as he could not see her. He heard her breathing, however, and she breathed with a softness he only knew two people used.
@@ -32,4 +32,4 @@ Meanwhile in the Sexy Stuns’ basement things had taken a turn for the worse. G
 ‘Take a good look at your son, you jerk-face, it’s the last time you’ll ever see him. Dead or alive.’ She marched out, dragging George with her who threw a terrified look at Loja. She got up at the sight of it and followed the duo. Gregory pulled his hands through his hair and fell back in his chair.
  ‘God fucking damn it,’ he said exhausted. ‘God fucking damn it all.’<i>
 
-</body>
+
