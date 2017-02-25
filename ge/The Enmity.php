@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>THE ENMITY
+THE ENMITY
 In the days that followed people kept disappearing for hours on end. We would be able to hear them scream, somewhere far away.  They would come back at either breakfast or dinner, exhausted and wounded. Martin quickly made himself the second most hated person in the building, though Howard was only hated more because he was seen as the one in charge.
 Other than me, only two other people had a finger cut off. Jaylynn lost her index finger and Tristan had his thumb cut off. He had joked about cutting Thalia’s tongue out as she remained the chattiest in the group even after the drama, but that suggestion had been met with a lot of angry faces. Thalia had quieted down a little after that, but nowhere near as much as Tristan did after he lost his thumb.
 As the days passed we seemed to numb down. It became just a matter of going through the motions, as it was obvious we weren’t going to be saved anytime soon. We ate, exercised, waited, ate again and slept. Occasionally we would be dragged from the group to be tortured for hours on end. After the first week Howard stopped showing up every meal. After the second week he all but stopped showing up with the exception of Saturdays to show us the week’s updates on our abduction. He wouldn’t speak, but waited patiently until we sat down and went quiet. After the video he would leave the room, again without a word. He seemed to be losing a lot of weight and his face grew more pale every day, as if he was struggling with guilt. Jaylynn and I started wondering whether he was having second thoughts.
@@ -171,4 +171,3 @@ It was one of the Pajamas that broke the silence.
 No sooner had he finished speaking or the dining room doors opened and footsteps hurried our way, along with a squeaking sound that turned out to be a stretcher. They rolled it up next to me. 
 ‘This is in your best interest, kid,’ one of the Pajamas said. He held a rag to my face with a very pungent smell. I struggled briefly, waving my arms and legs, but quickly passed out.
 
-</body>

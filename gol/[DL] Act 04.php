@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT FOUR: ...GOES AROUND
+ACT FOUR: ...GOES AROUND
 
 Nicky sacrificed her mobile phone to function as a delayed detonator. After removing her SIM-card and being reassured by Joshi that he had remotely backed up her private data, he had walked the girls through how to make it set off a charge. Megan, who had the steadiest hands, had used a small Swiss knife to alter the device carefully and she’d placed it at the bottom of the duffle bag. They set the alarm timer for 5 minutes on both phones: Nicky’s for detonation, and Megan’s to know how long they had until then. The detonator got surrounded with some of the spare ammunition and a few grenades. After having observed the house throughout the entire process and with still no sign of Tom they figured he wasn’t watching the windows at all. Slowly and carefully they moved towards Tom’s car and put the duffle bag in the middle of the street in front of it, far from the buildings. After that they got to the rear of his car and pushed it onto the road too until the rear wheels flanked the bag, quietly thanking Tom’s negligence of the handbrake.
 With less than half a minute remaining Nicky and Megan found themselves back on the house’s front porch and unlocking the front door. Mere seconds after Megan had closed the front door and they were in some form of cover, the duffle back exploded. The car’s explosion followed half a second later as the fuel tank gave and the combined force shattered most windows on the block and made numerous car alarms go off. Nicky looked at Megan with her eyes big in surprise.
@@ -40,4 +40,4 @@ She tossed the lighter onto the bed and jumped onto the ground as well as the fu
 Their satisfaction wasn’t to last long. They were only a few blocks from the fire when Megan’s phone rang.
 ‘This is Jay,’ she stated.
 ‘I know,’ Valerius replied. ‘Get to the ER, Thirza got shot.’  
-</body>
+

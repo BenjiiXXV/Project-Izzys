@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body> [Part One]
+ [Part One]
 
 The first abnormalities occurred as Theodore McGuire traveled from London to Cambridge by train. Not far from his destination a young woman took seat across from him while the rain started to clatter on the windows. He stopped his gazing out of the window now that the rain blurred the views anyway, and gazed at the new presence instead; intrigued and mildly amused at the sight of it. She had long, white-blond hair with a slight curl and mesmerizing blue eyes which she used to look back at Theodore shamelessly. A long, black coat finished the mystique of her appearance by contrasting her face so severely but fitting in with the rest of her wear. It seemed made for a purpose far darker than a mere train passage, and for a split-second Theodore wondered if he was about to become a hostage. Lightning bolted across the sky as the girl spoke.
 ‘You are Theodore McGuire,’ she said. It wasn’t a question. Her eyes seemed to penetrate his very soul and look into every corner of his memory. Theodore wasn’t sure what to say, astonished by the fact that she knew his full name; he had solely been called Ted for the past twenty years.
@@ -86,4 +86,3 @@ Two more chairs appeared from thin air and Theodore sat down in one of them, onc
 ‘Yes,’ she admitted.
 ‘But why not anyone else? Why specifically me?’
 ‘It’s what the prophecy foretold.’
-</body>

@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT EIGHT: MARE NOSTRUM (PART ONE)
+ACT EIGHT: MARE NOSTRUM (PART ONE)
 
 It was almost eight as Tom drove onto pier 19 with his Alfa Romeo. He could see The Little Seraph docked in, which meant Nicky had gotten her part done. There was a green Seat parked next to it. He parked his car too and boarded the ship, to find Nicky and Jennifer sunbathing on the front deck in the last rays of sunshine. Tom noticed blood on Nicky’s clothes and through a hole in her shirt he could tell her shoulder was bandaged, but she paid no further attention to it.
 ‘Who owns the green Seat?’ Tom asked, pointing with it with his thumb over his shoulder.
@@ -60,4 +60,4 @@ There was a small set of steps leading down which they descended. At the bottom 
 ‘Q, don’t go for The Little Seraph. I got wind of the betrayal. I’m not sure about Banker’s intentions, but I do know we’re better off not trusting him. If he did want you dead and you show up on his boat alive nothing will stop him from killing you like he killed before. I got a ship of mine anchored within your radar. Follow the line of the Jericho to the back, and keep going till you find a yacht called The Avalon Affinity. Find that, and you’ll find me. Find me, and you’ll find your safe way out of there.’ Valerius hung up before Nicky could answer.
 ‘Change of plans,’ Nicky told the others as she climbed across the barrier and headed for the anchor chain.
 ‘Follow me.’</i>
-</body>
+

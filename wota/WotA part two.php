@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>[Part Two]
+[Part Two]
 
 Achilleo Quadrelli strolled down the Via del Castellaccio in Florence, late at night. He was on his way to the Giardino della Gherardesca, where an emergency meeting had been arranged by Severin Machiodi, the leader of the Florence tribe.
 ‘You’re late, Quadrelli,’ said Severin as Achilleo entered the circle the others were already in. There were ten others in the circle, all hooded carefully so they could not be identified.
@@ -69,4 +69,4 @@ Theodore McGuire had been given a room to stay in during his training prior to t
 ‘Yes, thank you,’ he said, realizing he was breathless. ‘Just had a bad dream, that’s all.’
 The guard looked at him for a moment and seemed to look right through his lies.
 ‘Sounded like more than that,’ the guard said. ‘However, it’s not my place to judge you. Perhaps you should speak with Mistress Nagy about this.’ He turned around without waiting for a response and walked back to his post, leaving Theodore behind with mixed feelings of fear and guilt as he tried to wrestle out of his blankets.
-</body>
+

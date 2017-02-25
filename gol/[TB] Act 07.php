@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT SEVEN: MOULDING THE KEY (PART THREE)
+ACT SEVEN: MOULDING THE KEY (PART THREE)
 
 <i> ‘Get to cover!’ The entrance doors burst open and Roe’s team found itself in a rain of bullets. Four Phoenix members with heavy machine guns had entered the building, firing at everything dead or alive, piercing the wooden crates, concrete walls and metal pillars with bullets. Her team had obeyed quickly and kept low, covered by whatever they could reach. Dylan had found shelter behind on of the thicker pillars, firing at the Phoenix member whenever they needed time to reload or appeared to be shooting in a different direction. Paul was lying on the floor, stretched out behind a set of crates, using the same tactics as Dylan did. Laure had run for the office and was now out of Jennifer’s sight, probably hiding under the desk with Martin. Ilja and Gerdriaan were crouched, Ilja in the office as well just behind the doorway, firing a set of bullets every now and then, and Gerdriaan half behind a pillar and half behind a crate doing exactly the same. Jennifer dragged Haydon behind a set of crates as well, taking two bullets to her back in the process but as she was wearing a bulletproof vest as well it didn’t damage her much.
 Jennifer left the fighting to her team and attempted to bring Legionist Haydon back to life.
@@ -41,4 +41,4 @@ The Red Lotus’ whore Loja Makaine sat in the middle of the bloodstained bed. S
 ‘Exactly my point; look where I ended up.’ Tom looked at Loja, his eyes sliding down from her face to her breasts, where they paused, after which they slid down further to Emma’s head. Emma had been bound tightly; Tom could see blood had dripped from her wrists and ankles and the corners of her mouth where the ropes had held her. Her hands and feet had been tied together by the same rope, twisting past the entirety of her body, but they had used a different rope for her mouth, to keep her quiet. She had probably been drugged heavily as well, Tom realized.
 ‘Whatever,’ he said carelessly. ‘I got what I wanted, I’m out of here.’
 Tom left without another word, deciding to take the rest of the day off until eight.
-</body>
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT TWO: ONLY THE DEAD TRULY REST
+ACT TWO: ONLY THE DEAD TRULY REST
 
 At the bottom of the hill Tom ignored the traffic lights and crossed the empty junction. He paid very little attention to the road which could be dangerous but at this time the streets were strangely empty for a city this size. He still hadn’t made up his mind on what to do with what Karyme had told him, but it seemed to matter very little, his hands on the wheel seemed to know what to do and they led him to the Black Dragons HQ. He parked in front of the building but hesitated to get out. Was this truly the right thing to do? It would have been easier to just send Karyme to Megan, let her do her story there. Sure, that would mean he wouldn’t get the honor or preventing a political murder but at least he wouldn’t have to worry about stuff like that. But given Karyme’s past she couldn’t be trusted, for all Tom knew her story had been an attempt of letting him get her to Megan to kill her. She wouldn’t have lied to him; after all she could have planned that with Gregory. Yes, he would have to ask her about that later.
 He burst through the doors, half because he was slightly pissed off because this was ruining his moment of pleasure after the bombing and half because he had never been a subtle guy.
@@ -30,4 +30,3 @@ Gregory pushed the door open even further, showing himself. The door creaked, Th
 ‘You don’t know what you’re doing, Gregory,’ Thirza warned once more.
 ‘Trust me, I do.’ Gregory fired six, seven times at the bobble between Thirza’s legs. The white sheets turned red and the bobble stopped moving. Satisfied, he turned around and left the house.</i>
 
-</body>

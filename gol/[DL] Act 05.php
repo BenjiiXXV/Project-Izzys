@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT FIVE: WITHERED TEA
+ACT FIVE: WITHERED TEA
 
 Megan graciously rolled out of the still driving Bugatti as soon as Nicky passed the ER entrance with it. Valerius had been awaiting her; he opened the door as soon as Megan approached and set off through the hospital wing in a quickened pace.
 ‘What happened?’ Megan asked, following him with ease.
@@ -30,4 +30,3 @@ Valerius returned not much later, followed by both Nicky and Joshi. They had con
 ‘That’s about to be one very dead Makaine,’ Megan said.
 ‘Should I bring the guns?’ Nicky asked.
 ‘Fuck no,’ Megan said. ‘I want this one to hurt. A lot.’
-</body>

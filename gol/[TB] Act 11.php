@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body>ACT ELEVEN: COUNTING THE HOURS
+ACT ELEVEN: COUNTING THE HOURS
 
 <i>It was still rather early in the morning when Thirza and Nicky arrived at the remand center where the delinquents were kept when awaiting their trial. Jeeves had been kind enough to drop them off but said he was too busy to join them inside. The visitors’ room was divided into two separate rooms separated by the line of booths with their phones and their glass uniting the inmate with their visitors but separating them all the same. There were a total of twenty booths, supervised by three guards on either side. Thirza and Nicky were told to go to booth seven and wait there.
 Megan entered the inmate’s end of the room not much later. She looked different wearing a bright orange jumpsuit rather than the long black coat and her hair tightly bound in a ponytail rather than to have it loosely on her shoulders like she usually had it. She carried a disposable, plastic cup with too strong but merely lukewarm coffee as she casually walked up to booth seven, turned the chair around and sat down with one leg on either side of the chair’s back. She then sipped her coffee, grimaced, and picked up the horn on her side of the glass. Thirza and Nicky picked up their receiver too and held it in between them, with their heads close together so they could both hear what Megan was saying.
@@ -51,4 +51,4 @@ Megan was still sitting at booth seven when Tom arrived in the visitors’ room.
 ‘In the end that’s just an image, a meaningless image, if the fact that others carry it too doesn’t mean anything to you. You’re gonna have to come up with something to prove your loyalty. In any case, I’m taking the General rank off your shoulders. I’m degrading you to Legionist, and you’re lucky I’m not doing more. Think about what you did, we’ll see what happens to you when I’m out of prison.’ Megan put the horn back in its holder and one of the guards brought her back to her cell. 
 ‘Loyal?’ Tom angrily said as he got up and walked out. ‘I’ll show you loyal. I’ll show you what the emblem truly means.’
 
-</body>
+
