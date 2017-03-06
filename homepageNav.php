@@ -12,9 +12,9 @@
                     <li><a href="Greenberg.php" class="button" style="button">FEATURED PRIDE:<br>Greenberg's Experiment</a></li>
                     <li class="dropdown">
                         <a href="#" class="button dropdown-toggle" data-toggle="dropdown" role="button">BACKBURNERS<br>Idle Projects</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="wota.php">WAR OF<br>THE ANGELS</a></li>
-                            <li><a href="gol.php">GANGS<br>OF LETUM</a></li>  
+                        <ul class="dropdown-menu" style="background-color: black;">
+                            <li><a href="wota.php" class="button"  style="height: 50px;">WAR OF<br>THE ANGELS</a></li>
+                            <li><a href="gol.php" class="button"  style="height: 50px;">GANGS<br>OF LETUM</a></li>  
                         </ul>
                     </li>
                     <li><a href="dead.php" class="button" style="button">GRAVEYARD:<br>Dead Projects</a></li>
@@ -30,8 +30,11 @@
          /* if (user is logged on{
              document.getElementById("mebutton").innerHTML = "MY<br>PROFILE";
             document.getElementById("me2button").innerHTML = "LOG<br>OUT";
-          function me(){
+          function login(){
             window.location.href = "profile.php";
+          }
+          function register(){
+            prompt logoff
           }
         
         } else {*/
