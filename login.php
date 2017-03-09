@@ -76,12 +76,9 @@
       
     if (strcmp($_POST["psw"], $_POST["psw2"]))
     {
-
       $sql = "SELECT `email` FROM `users` WHERE `email` = '".$_POST["email"]."'";
       $result = mysqli_query($conn, $sql);
-
       $record =  mysqli_fetch_array($result, MYSQLI_ASSOC);
-
       $sql = "INSERT INTO `users` (`id`,
                                    `user`,
                                    `email`, 
@@ -96,12 +93,11 @@
       // vuur de query af op de database via de verbinding $conn
       $result = mysqli_query($conn, $sql);
      // $last_id = mysqli_insert_id($conn);
-
       //als de query correct is ontvangen en uitgevoerd
       if ($result)
       {
         $emailadress = $_POST["email"];
-        $subject = "Activatie account";
+        $subject = "Activation account";
      
        $messageHtml = "<!DOCTYPE html>
                         <html>
@@ -113,44 +109,37 @@
                             font-size: 1em;
                             color: rgb(30, 0, 255);
                         }
-
                         </style>
                         </head>
                         <body>
-                        <h3>Beste ". $user.", </h3>".
-                        "<p>Bedankt voor het registreren, klik op onderstaande link</p>".
+                        <h3>Dear ". $user.", </h3>".
+                        "<p>Thank you for registering, click below on the link for the activation</p>".
                         "<p><a href='http://localhost/AM1A/LoginRegistration/index.php?content=activate&id=".
-                        $last_id."&pw=".$password."'>Activatie</a></p><p> om uw account te activeren</p>".
-                        "<p>Met vriendelijke groet,</p>".
-                        "Admin
+                        $last_id."&pw=".$password."'>Activation</a></p><p> to activate your account</p>".
+                        "<p>With dear regards,</p>".
+                        "The Admin
                         </body>
                         </html>";           
-
-        $headers = "Cc: megan.j.online@gmail.com, erikgraaff@gmail.com"."\r\n";
+        $headers = "Cc: admin@izzys.hol.es.com"."\r\n";
         $headers .= "Content-Type: text/html; charset=UTF-8";
         mail($emailadress,  $subject, $messageHtml, $headers);
       
-         echo "U bent geregistreerd";
+         echo "Your account has been activated.";
          header("refresh:3; url=./index.php?content=home");
-
          $sql = "INSERT INTO `fonts` AND `chapter_read` (`user`)
-
                  VALUES                                 ('".$user."')";
-
       }
       else
       {
           //wanneer de query niet goed is ontvangen of uitgevoerd, meldt dit en stuur door
-         echo "Het emailadres is al bekend in onze database. Kies een nieuw mailadres";
+         echo "The mailadres is already known to us. Please choose a different mailadres.";
          header("refresh:3; url=./index.php?content=register_form");
       }
-
    }
    else
    {
-    echo"De door u ingevoerde wachtwoorden komen niet overeen. Probeer het nog een keer";
+    echo"The passwords that have been entered are not the same. Please try again. ";
     header("refresh: 3; url=./index.php?content=register_form");
-
    }
 }
 ?>
