@@ -113,7 +113,7 @@
                         <body>
                         <h3>Dear ". $user.", </h3>".
                         "<p>Thank you for registering, click below on the link for the activation</p>".
-                        "<p><a href='http://localhost/AM1A/LoginRegistration/index.php?content=activate&id=".
+                        "<p><a href='http://izzys.hol.es/index.php?content=activate&id=".
                         $last_id."&pw=".$password."'>Activation</a></p><p> to activate your account</p>".
                         "<p>With dear regards,</p>".
                         "The Admin
@@ -131,7 +131,7 @@
       else
       {
           //wanneer de query niet goed is ontvangen of uitgevoerd, meldt dit en stuur door
-         echo "The mailadres is already known to us. Please choose a different mailadres.";
+         echo "This Email address is already registered with us. Please choose a different one.";
          header("refresh:3; url=./index.php?content=register_form");
       }
    }
