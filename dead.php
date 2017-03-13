@@ -21,9 +21,9 @@
           <br>(Click any title to view the chapter)</h4>
           <div class="deadNav">
             <ul>
-              <li><button onclick="loadDoc('dead/','Mellody')" class="button">[CRIME]<br>Mellody Conroy</button></li>
-              <li><button onclick="loadDoc('dead/','YAAS')" class="button">[SURVIVAL]<br>YAAS</button></li>
-              <li><button onclick="loadDoc('dead/','Equity')" class="button">[REV/ROM]<br>Equity</button></li>
+              <li><button onclick="loadDoc('dead/Mellody', false)" class="button">[CRIME]<br>Mellody Conroy</button></li>
+              <li><button onclick="loadDoc('dead/YAAS', false)" class="button">[SURVIVAL]<br>YAAS</button></li>
+              <li><button onclick="loadDoc('dead/Equity', false)" class="button">[REV/ROM]<br>Equity</button></li>
             </ul>
           </div>
           

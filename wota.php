@@ -24,10 +24,10 @@
         <h4>(Click any part to explore it)</h4>
         <div class="wota-nav">
           <ul>
-          <li><button onclick="loadDoc('wota/','WotA part one')" class="button">[WotA]<br>Part One</button></li>
-          <li><button onclick="loadDoc('wota/','WotA part two')" class="button">[WotA]<br>Part Two</button></li>
-          <li><button onclick="loadDoc('wota/','WotA part three')" class="button">[WotA]<br>Part Three</button></li>
-          <li><button onclick="loadDoc('wota/','WotA part four')" class="button">[WotA]<br>Part four</button></li>
+          <li><button onclick="loadDoc('wota/WotA part one', false)" class="button">[WotA]<br>Part One</button></li>
+          <li><button onclick="loadDoc('wota/WotA part two', false)" class="button">[WotA]<br>Part Two</button></li>
+          <li><button onclick="loadDoc('wota/WotA part three', false)" class="button">[WotA]<br>Part Three</button></li>
+          <li><button onclick="loadDoc('wota/WotA part four', false)" class="button">[WotA]<br>Part four</button></li>
           </ul>
         </div>
         
