@@ -1,4 +1,3 @@
-
 <div class="container">
   <!-- Login Modal -->
   <div class="modal fade" id="loginmodal" role="dialog">
@@ -88,7 +87,7 @@
                                   '".$user."',
                                   '".$email."', 
                                   '".$psw."',
-                                  "FOLLOWER")";
+                                  'FOLLOWER')";
       
       // vuur de query af op de database via de verbinding $conn
       $result = mysqli_query($conn, $sql);
@@ -143,5 +142,3 @@
    }
 }
 ?>
-
-
