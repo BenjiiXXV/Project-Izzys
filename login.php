@@ -82,7 +82,7 @@
                                    `user`,
                                    `email`, 
                                    `password`,
-                                   `User_role`)
+                                   `user_role`)
               VALUES             (NULL,
                                   '".$user."',
                                   '".$email."', 
@@ -95,7 +95,7 @@
       //als de query correct is ontvangen en uitgevoerd
       if ($result)
       {
-        $emailadress = $_POST["email"];
+        $emailaddress = $_POST["email"];
         $subject = "Activation account";
      
        $messageHtml = "<!DOCTYPE html>
@@ -121,7 +121,7 @@
                         </html>";           
         $headers = "Cc: admin@izzys.hol.es.com"."\r\n";
         $headers .= "Content-Type: text/html; charset=UTF-8";
-        mail($emailadress,  $subject, $messageHtml, $headers);
+        mail($emailaddress,  $subject, $messageHtml, $headers);
       
          echo "Your account has been activated.";
          header("refresh:3; url=./index.php?content=home");
