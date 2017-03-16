@@ -1,7 +1,8 @@
  <?php 
+        include("db.php");
         if (!empty($_POST)) {
           $sender = $_POST['email'];
-          $user = $_POST["name"];
+          $user = $_POST["user"];
           $story = $_POST["story"];
           if($_POST["return"]){
             $checked = $user." received a copy of the comment.";
@@ -32,8 +33,13 @@
           
           $headers .="From: ".$sender;
           mail($emailaddress, $subject, $message, $headers);
+          $sql = "INSERT INTO `comment` (`user`,`comment`, `chapter`, `date`)
+VALUES( '".$_POST["user"]."',
+'".$_POST["comment"]."',
+'".$_POST["story"]."',
+'".date("Y/m/d")."')";
           if($_POST["return"]){
-            mail($sender, $subject2, $message2, $headers);
+          mail($sender, $subject2, $message2, $headers);
           }
           $sent = "Your comment has been sent to the author! Thank you!";
           echo "<script type='text/javascript'>alert('$sent');</script>";

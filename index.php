@@ -4,7 +4,7 @@
 ?>
 <html>
   <head>
-    <title>Izzy's Epicailty</title>
+    <title>Izzy's Epicality</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
  <body class="mainpageImage">

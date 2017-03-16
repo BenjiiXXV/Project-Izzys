@@ -30,8 +30,35 @@
           function home(){
             window.location.href = "/index.php";
           }
+          
           function comments(){
-            // pull comments from database, display
+          <?php 
+    include("db.php");
+    $user = $_POST['user'];
+    $connect = dblogin();
+    $sql = "SELECT * FROM comment WHERE user = ".$user;
+    mysqli_query($connect, $sql);
+    $result = mysqli_query($connect, $sql);
+    while ( $records = mysqli_fetch_array($result, MYSQLI_ASSOC)) 
+         { 
+    echo "<center>
+            <p>These Are The Best Players In Tha World Biatch!!!</p>
+                <table>
+                    <tr>
+                        <th>Post Date</th>
+                        <th>Chapter</th>
+                        <th>Comment</th>
+                    </tr>
+                    <tr>
+                        <td>".$records['date']."</td>
+                        <td>".$records['chapter']."</td>
+                        <td>".$records['comment']."</td>
+                    </tr>
+                </table>
+            </center>
+         ";
+         }
+?>
           }
 
           function chapters(){

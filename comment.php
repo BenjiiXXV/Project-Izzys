@@ -11,7 +11,7 @@
                     <tr>
                             <!--TO BE REPLACED BY AUTO INCLUDE USERNAME-->
                         <td>Name:</td>
-                        <td><input type="text" name="name" placeholder="Izzy's biggest fan!" required>&nbsp;&nbsp;(all fields required)</td>
+                        <td><input type="text" name="user" placeholder="Izzy's biggest fan!" required>&nbsp;&nbsp;(all fields required)</td>
                     </tr>
                     <tr>
                         <td>Comment:</td>
