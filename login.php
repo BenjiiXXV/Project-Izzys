@@ -141,4 +141,53 @@
     header("refresh: 3; url=./index.php?content=register_form");
    }
 }
+
+$mode = $_REQUEST["mode"];
+if ($mode == "login") {
+    $username = trim($_POST['username']);
+    $pass = trim($_POST['password']);
+
+    if ($username == "" || $pass == "") {
+
+        $_SESSION["errorType"] = "danger";
+        $_SESSION["errorMsg"] = "Enter manadatory fields";
+    } else {
+        $sql = "SELECT * FROM users WHERE username = :uname AND password = :upass ";
+
+        try {
+            $stmt = $DB->prepare($sql);
+
+            // bind the values
+            $stmt->bindValue(":uname", $username);
+            $stmt->bindValue(":upass", $pass);
+
+            // execute Query
+            $stmt->execute();
+            $results = $stmt->fetchAll();
+
+            if (count($results) > 0) {
+                $_SESSION["errorType"] = "success";
+                $_SESSION["errorMsg"] = "You have successfully logged in.";
+
+                
+                $_SESSION["rolecode"] = $results[0]["u_rolecode"];
+                $_SESSION["username"] = $results[0]["u_username"];
+
+                redirect("dashboard.php");
+                exit;
+            } else {
+                $_SESSION["errorType"] = "info";
+                $_SESSION["errorMsg"] = "username or password does not exist.";
+            }
+        } catch (Exception $ex) {
+
+            $_SESSION["errorType"] = "danger";
+            $_SESSION["errorMsg"] = $ex->getMessage();
+        }
+    }
+   // redirect function is found in functions.php page
+    redirect("index.php");
+}
+?>
+
 ?>
