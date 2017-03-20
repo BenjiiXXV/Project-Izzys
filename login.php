@@ -1,3 +1,6 @@
+<?php
+include("db.php");
+?>
 <div class="container">
   <!-- Login Modal -->
   <div class="modal fade" id="loginmodal" role="dialog">
@@ -63,12 +66,14 @@
 </div>
 
 <?php
-   
-   if (isset($_POST["idregister"]))
+
+
+  /* if (isset($_POST["idregister"]))
    {
       include("./connect_db.php");
-    
-      $user = ($_POST["user"]);
+       
+    var_dump($_POST);
+      $user = ($_POST["usrname"]);
       $email = ($_POST["email"]);
       $password = ($_POST["psw"]);
       $password2 = ($_POST["psw2"]);
@@ -92,7 +97,17 @@
       // vuur de query af op de database via de verbinding $conn
       $result = mysqli_query($conn, $sql);
      // $last_id = mysqli_insert_id($conn);
-      //als de query correct is ontvangen en uitgevoerd
+      //als de query correct is ontvangen en 
+      */
+
+// Construct db class 
+$connection = new DB();
+
+// Call method with params
+
+if (strcmp($_POST["psw"], $_POST["psw2"]))
+    {
+      $result = $connection->storeUser($_POST['email'], $_POST['user'], $_POST['password']);
       if ($result)
       {
         $emailaddress = $_POST["email"];
@@ -111,15 +126,15 @@
                         </style>
                         </head>
                         <body>
-                        <h3>Dear ". $user.", </h3>".
+                        <h3>Dear ".$user.", </h3>".
                         "<p>Thank you for registering, click below on the link for the activation</p>".
-                        "<p><a href='http://izzys.hol.es/index.php?content=activate&id=".
-                        $last_id."&pw=".$password."'>Activation</a></p><p> to activate your account</p>".
+                        "<p><a href='http://izzys.hol.es/privatetest/index.php?content=activate&
+                        ".$password."'>Activation</a></p><p> to activate your account</p>".
                         "<p>With dear regards,</p>".
                         "The Admin
                         </body>
                         </html>";           
-        $headers = "Cc: admin@izzys.hol.es.com"."\r\n";
+        $headers = "Cc: erikgraaff@gmail.com"."\r\n";
         $headers .= "Content-Type: text/html; charset=UTF-8";
         mail($emailaddress,  $subject, $messageHtml, $headers);
       
@@ -137,8 +152,58 @@
    }
    else
    {
-    echo"The passwords that have been entered are not the same. Please try again. ";
+    echo"The passwords that have been entered are not the same. Please try again.";
     header("refresh: 3; url=./index.php?content=register_form");
    }
+
+/*
+$mode = $_REQUEST["mode"];
+if ($mode == "login") {
+    $username = trim($_POST['username']);
+    $pass = trim($_POST['password']);
+
+    if ($username == "" || $pass == "") {
+
+        $_SESSION["errorType"] = "danger";
+        $_SESSION["errorMsg"] = "Enter manadatory fields";
+    } else {
+        $sql = "SELECT * FROM users WHERE username = :uname AND password = :upass ";
+
+        try {
+            $stmt = $DB->prepare($sql);
+
+            // bind the values
+            $stmt->bindValue(":uname", $username);
+            $stmt->bindValue(":upass", $pass);
+
+            // execute Query
+            $stmt->execute();
+            $results = $stmt->fetchAll();
+
+            if (count($results) > 0) {
+                $_SESSION["errorType"] = "success";
+                $_SESSION["errorMsg"] = "You have successfully logged in.";
+
+               
+                $_SESSION["rolecode"] = $results[0]["u_rolecode"];
+                $_SESSION["username"] = $results[0]["u_username"];
+
+                redirect("dashboard.php");
+                exit;
+            } else {
+                $_SESSION["errorType"] = "info";
+                $_SESSION["errorMsg"] = "username or password does not exist.";
+            }
+        } catch (Exception $ex) {
+
+            $_SESSION["errorType"] = "danger";
+            $_SESSION["errorMsg"] = $ex->getMessage();
+        }
+    }
+   // redirect function is found in functions.php page
+    redirect("index.php");
 }
+*/
 ?>
+
+

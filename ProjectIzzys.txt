@@ -38,17 +38,17 @@ Functionalities to realize:
 4) Function loadComment()
 	- FOLLOWER rank and higher
 	- Small form on every page
-	- Sends an email to a designated email address
+	- Sends an email to a designated email address DONE
 	- Tagged with username
-	- Send copy to user (optional(checkbox))
-	- Save copy to database
+	- Send copy to user (optional(checkbox)) DONE
+	- Save copy to database DONE
 	- Display comments (on own page) on profile
 
 5) Navigation
-	- Navigate to main pages from homepage
-	- Navigate to Log In/Profile
-	- AJAX in story posts on main pages (separate navbar, centered, below page title)
-	- Change url without refresh to enable bookmarking
+	- Navigate to main pages from homepage DONE
+	- Navigate to Log In/Profile	 DONE
+	- AJAX in story posts on main pages (separate navbar, centered, below page title) DONE
+	- Change url without refresh to enable bookmarking DONE
 
 6) Function Post()
 	- ADMIN rank ONLY form (on admin page)

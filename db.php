@@ -65,18 +65,19 @@ class DB {
     }
   }
 
-  public function storeUser($username, $password) {
-    $this->connect('u319171765_holes');
-    $password = hash('sha256', $password . 'Izzy');
+  public function storeUser($email, $username, $password) {
+    // $this->connect('u319171765_holes');
+    $password = hash('sha256', $password);
 
     try {
-      $stmt = $this->conn->prepare('INSERT INTO users (user, password) VALUES (:user, :password)');
+      $stmt = $this->conn->prepare('INSERT INTO users (email, user, password) VALUES (:email, :user, :password)');
       $stmt->bindParam(':user', $username);
       $stmt->bindParam(':password', $password);
+      $stmt->bindParam(': email', $email);
 
-      $stmt->execute();
-
-      return true;
+       $x = $query->execute();
+      
+      return $x;
     }
     catch (PDOException $e) {
       return "Error: " . $e->getMessage();
@@ -117,7 +118,23 @@ class DB {
         $query->execute();
 
         $result = $query->fetchAll();
-        var_dump($result);
+        return $result;
+    }
+    catch (PDOException $e) { return "Error: " + $e->getMessage();}
+
+  }
+
+   public function selectChapter($user)
+  {
+    // Connect to db
+    $this->connect('u319171765_holes');
+    try
+    {
+        $query = $this->conn->prepare('SELECT * FROM `chapter_read` WHERE `user` = :user');
+        $query->bindParam(':user', $user);
+        $query->execute();
+
+        $result = $query->fetchAll();
         return $result;
     }
     catch (PDOException $e) { return "Error: " + $e->getMessage();}
