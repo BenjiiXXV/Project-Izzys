@@ -1,29 +1,17 @@
 //TODO
 	
-	- Merge to bootsstrap
   	- Make open chapter visible in url (without refresh)
   	- Change loadComment() include username, no longer ask for email address (keep carbon copy checkbox)
 	- Add (missing) functionalities
-	- Add back to top button to chapters ("<a href="#top">Go to top</a>" at bottom, <p> with id="top" at top!(spawn only if chapter active?))
-	- SEPARATE CSS FILES
 
 //TODO DB
 	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
 		COLUMN User
-		COLUMN per chapter
+		COLUMN per chapter (gotta add some!)
 	- Table for user css + default values
 		COLUMN User
 		COLUMN per css value
-	- Table for ADMIN, BETA and FOLLOWER respectively. Newly created accounts get FOLLOWER rank by default.
-		**default user table!** (users register to this!)
-COLUMN User(name)
-		COLUMN Email
-		COLUMN Password
-		COLUMN User role ENUM (3, ADMIN, BETA, FOLLOWER)
-	- Table for comments
-		COLUMN user
-		COLUMN comment
-		(new row per comment!)
+
 
 
 Functionalities to realize:
