@@ -33,11 +33,21 @@
           
           $headers .="From: ".$sender;
           mail($emailaddress, $subject, $message, $headers);
-          $sql = "INSERT INTO `comment` (`user`,`comment`, `chapter`, `date`)
-VALUES( '".$_POST["user"]."',
-'".$_POST["comment"]."',
-'".$_POST["story"]."',
-'".date("Y/m/d")."')";
+//           $sql = "INSERT INTO `comment` (`user`,`comment`, `chapter`, `date`)
+//-- VALUES( '".$_POST["user"]."',
+// '".$_POST["comment"]."',
+// '".$_POST["story"]."',
+// '".date("Y/m/d")."')";
+//  $watjijwil = connect('comment');
+//  msqliquery($watjijwil, $sql);
+
+// Construct db class 
+$connection = new DB();
+
+// Call method with params
+$result = $connection->addComment($_POST['user'], $_POST['comment'], $_POST['story'], date("Y/m/d"));
+
+
           if($_POST["return"]){
           mail($sender, $subject2, $message2, $headers);
           }

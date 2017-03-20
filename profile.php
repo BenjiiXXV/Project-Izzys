@@ -34,15 +34,17 @@
           function comments(){
           <?php 
     include("db.php");
-    $user = $_POST['user'];
-    $connect = dblogin();
-    $sql = "SELECT * FROM comment WHERE user = ".$user;
-    mysqli_query($connect, $sql);
-    $result = mysqli_query($connect, $sql);
-    while ( $records = mysqli_fetch_array($result, MYSQLI_ASSOC)) 
-         { 
+    // $user = $_POST['user'];
+    // $connect = dblogin();
+    // $sql = "SELECT * FROM comment WHERE user = ".$user;
+    // mysqli_query($connect, $sql);
+    // $result = mysqli_query($connect, $sql);
+
+$db = new DB();
+$db->selectComment('test43');
+
     echo "<center>
-            <p>These Are The Best Players In Tha World Biatch!!!</p>
+            <p>An overview of your comments:</p>
                 <table>
                     <tr>
                         <th>Post Date</th>

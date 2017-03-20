@@ -1,6 +1,7 @@
 <?php
   require("head.php");
   include("homepageNav.php");
+
 ?>
 <html>
   <head>
