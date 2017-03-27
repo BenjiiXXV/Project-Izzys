@@ -3,6 +3,9 @@
   	- Make open chapter visible in url (without refresh)
   	- Change loadComment() include username, no longer ask for email address (keep carbon copy checkbox)
 	- Add (missing) functionalities
+	- Add function to email people that follow a specific story
+	- Add ability to profile to follow a specific story
+	- Add database to follow whether people follow a specific story (enum Y/N)
 
 //TODO DB
 	- Table for read chapters (enum yes/no per available chapter, default no, new post adds new line to table defaulting no)
