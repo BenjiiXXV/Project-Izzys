@@ -1,5 +1,6 @@
 <?php 
-  include("login.php"); 
+  include("login.php");
+  session_start ();
 ?>
 
 <html>
@@ -25,20 +26,25 @@
         </div><!-- /.container-fluid -->
     </nav>
 </body>
-<script>
+<?php if (isset($_SESSION['role'])) {
+   echo '<script>
 
-         /* if (user is logged on{
-             document.getElementById("mebutton").innerHTML = "MY<br>PROFILE";
-            document.getElementById("me2button").innerHTML = "LOG<br>OUT";
-          function login(){
+
+    document.getElementById("mebutton").innerHTML = "MY<br>PROFILE";
+    document.getElementById("me2button").innerHTML = "LOG<br>OUT";
+    function login(){
             window.location.href = "profile.php";
-          }
+          };
           function register(){
-            prompt logoff
-          }
-        
-        } else {*/
-            document.getElementById("mebutton").innerHTML = "SIGN<br>UP";
+            window.location.href = "logout.php";
+          };
+    </script>';
+};
+?>
+
+         <?php if (!isset($_SESSION['role'])) {
+    echo '<script>
+   document.getElementById("mebutton").innerHTML = "SIGN<br>UP";
               function login(){
                       $(document).ready(function(){
                         $("#mebutton").click(function(){
@@ -53,7 +59,7 @@
                           $("#loginmodal").modal();
                         });
                       });
-                
+
                 }
-    //}
-</script>
+</script>';
+};?>
