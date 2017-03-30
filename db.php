@@ -140,7 +140,11 @@ class DB {
     $this->connect('u319171765_holes');
     try
     {
+        if (isset($_SESSION['user'])) {
         $query = $this->conn->prepare('SELECT * FROM `fonts` WHERE `user` = :user');
+        } else {
+        $query = $this->conn->prepare('SELECT * FROM `fonts` WHERE `user` = Default');
+        }
         $query->bindParam(':user', $user);
         $query->execute();
 
