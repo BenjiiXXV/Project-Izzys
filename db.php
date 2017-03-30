@@ -47,12 +47,6 @@ class DB {
       $result = $stmt->fetchAll();
 
       if ($result[0]) {
-        $result = $result[0];
-
-        if (hash('sha256', $password . 'Izzy') == $result['password']) {
-          session_start();
-          $_SESSION['user'] = $result['user'];
-
           return true;
         }
       }
