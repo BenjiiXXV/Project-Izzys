@@ -9,7 +9,6 @@ $db->connect('DBName');
 $user = $db->loginUser('Username', 'Password');
 u319171765_holes
 */
-include ('privateShizzle.php');
 
 class DB {
   
@@ -19,9 +18,9 @@ class DB {
   private $conn;
 
    public function __construct() {
-    $this->servername = $servername;
-    $this->username = $username;
-    $this->password = $password;
+    $this->servername = "mysql.hostinger.nl";
+    $this->username = "u319171765_izzys";
+    $this->password = '15051995Bw';
   }
 
   public function connect($dbName) {
@@ -66,16 +65,16 @@ class DB {
   }
 
   public function storeUser($email, $username, $password) {
-    // $this->connect('u319171765_holes');
+    $this->connect('u319171765_holes');
     $password = hash('sha256', $password);
 
     try {
-      $stmt = $this->conn->prepare('INSERT INTO users (email, user, password) VALUES (:email, :user, :password)');
+      $stmt = $this->conn->prepare('INSERT INTO `users` (email, `user`, password) VALUES (:email, :user, :password)');
       $stmt->bindParam(':user', $username);
       $stmt->bindParam(':password', $password);
-      $stmt->bindParam(': email', $email);
+      $stmt->bindParam(':email', $email);
 
-       $x = $query->execute();
+       $x = $stmt->execute();
       
       return $x;
     }
@@ -124,13 +123,30 @@ class DB {
 
   }
 
-   public function selectChapter($user)
+  public function selectRead($user)
   {
     // Connect to db
     $this->connect('u319171765_holes');
     try
     {
         $query = $this->conn->prepare('SELECT * FROM `chapter_read` WHERE `user` = :user');
+        $query->bindParam(':user', $user);
+        $query->execute();
+
+        $result = $query->fetchAll();
+        return $result;
+    }
+    catch (PDOException $e) { return "Error: " + $e->getMessage();}
+
+  }
+
+    public function loadcss($user)
+  {
+    // Connect to db
+    $this->connect('u319171765_holes');
+    try
+    {
+        $query = $this->conn->prepare('SELECT * FROM `fonts` WHERE `user` = :user');
         $query->bindParam(':user', $user);
         $query->execute();
 
