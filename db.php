@@ -39,16 +39,16 @@ class DB {
   public function loginUser($username, $password) {
     $this->connect('u319171765_holes');
     try {
-      $stmt = $this->conn->prepare('SELECT * FROM users WHERE user = :user');
+      $stmt = $this->conn->prepare('SELECT * FROM `users` WHERE `user` = :user AND `password` = :password);
       $stmt->bindParam(':user', $username);
-
+      $stmt->bindParam(':password', $password); 
       $stmt->execute();
 
       $result = $stmt->fetchAll();
 
       if ($result[0]) {
           return true;
-        }
+        
       }
 
       return false;
