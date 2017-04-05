@@ -1,7 +1,7 @@
 <?php
-  require("head.php");
-  include("sidenav.php");
-  include("commentdata.php");
+  require_once("head.php");
+  include_once("sidenav.php");
+  include_once("commentdata.php");
 ?>
 <html>
   <head>
@@ -35,19 +35,18 @@
                 <li>
                   <div class="dropdown">
                     <button onclick="Bankers()" class="dropbtn">[CHRONICLES]<br>Tom Bankers</button>
-                    <div id="dropBankers" class="dropdown-content"  style="z-index:10; width:131px;">
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 01', false)">ACT ONE</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 02', false)">ACT TWO</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 03', false)">ACT THREE</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 04', false)">ACT FOUR</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 05', false)">ACT FIVE</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 06', false)">ACT SIX</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 07', false)">ACT SEVEN</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 08', false)">ACT EIGHT</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 09', false)">ACT NINE</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 10', false)">ACT TEN</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 11', false)">ACT ELEVEN</button>
-                      <button class="button" style="width:131px; height: 40px;" onclick="loadDoc('gol/[TB] Act 12', false)">ACT TWELVE</button>
+                    <div id="dropBankers" class="dropdown-content"  style="z-index:10; width:137px;">
+                        <?php
+                        $DB = new DB();
+                        $Titles = $DB->loadTitles('tb');
+                        $i = 1;
+                        foreach($Titles as $Title)
+                        {   
+                              $Text = '<button onclick="loadDoc(\'gol/' . $Title['title'] . '\', false)"';
+                              $Text .= 'class="button" style="width:68px;">ACT<br>[' . $i++ . ']</button>';
+                              echo $Text;
+                            }
+                        ?>
                   </div>
                 </div>
                 </li>
@@ -55,12 +54,17 @@
                   <div class="dropdown">
                     <button onclick="Legacy()" class="dropbtn">[CHRONICLES]<br>Dragon's Legacy</button>
                     <div id="dropLegacy" class="dropdown-content" style="z-index:10; width:137px;">
-                      <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/[DL] Act 01', false)">ACT ONE</button>
-                      <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/[DL] Act 02', false)">ACT TWO</button>
-                      <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/[DL] Act 03', false)">ACT THREE</button>
-                      <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/[DL] Act 04', false)">ACT FOUR</button>
-                      <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/[DL] Act 05', false)">ACT FIVE</button>
-                      <button class="button" style="width:137px; height: 40px;" onclick="loadDoc('gol/[DL] Act 06', false)">ACT SIX</button>
+                      <?php
+                        $DB = new DB();
+                        $Titles = $DB->loadTitles('dl');
+                        $i = 1;
+                        foreach($Titles as $Title)
+                        {   
+                              $Text = '<button onclick="loadDoc(\'gol/' . $Title['title'] . '\', false)"';
+                              $Text .= 'class="button" style="width:68px;">ACT<br>[' . $i++ . ']</button>';
+                              echo $Text;
+                            }
+                        ?>
                     </div>
                   </div>
                 </li>

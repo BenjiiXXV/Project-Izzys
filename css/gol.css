@@ -10,29 +10,3 @@
     font-family: 'Merriweather', serif;
 }
 
-.intel1{
-    float: left; 
-    width: 48%;
-    margin-left: 10px;
-    margin-right: 10px;
-    align-content: center;
-    text-align: justify;
-    text-align-last: start;
-    font-size: 16;
-    font-family: 'Garamond';
-}
-
-.ranks{
-    border: solid 1px red; 
-    border-collapse: collapse;
-    align-content: center; 
-    text-align: left;
-}
-
-.rank{
-    width: 12%;
-    border: solid 1px red; 
-    border-collapse: collapse;
-    align-content: center; 
-    text-align: left;
-}

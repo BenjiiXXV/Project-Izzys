@@ -1,7 +1,7 @@
 <?php
-  require("head.php");
-  include("sidenav.php");
-  include("commentdata.php");
+  require_once("head.php");
+  include_once("sidenav.php");
+  include_once("commentdata.php");
 ?>
 <html>
     <head>
@@ -23,12 +23,22 @@
                 </h2>
         <h4>(Click any part to explore it)</h4>
         <div class="wota-nav">
-          <ul>
-          <li><button onclick="loadDoc('wota/WotA part one', false)" class="button">[WotA]<br>Part One</button></li>
-          <li><button onclick="loadDoc('wota/WotA part two', false)" class="button">[WotA]<br>Part Two</button></li>
-          <li><button onclick="loadDoc('wota/WotA part three', false)" class="button">[WotA]<br>Part Three</button></li>
-          <li><button onclick="loadDoc('wota/WotA part four', false)" class="button">[WotA]<br>Part four</button></li>
-          </ul>
+           <ul>
+            <?php
+            $DB = new DB();
+            $Titles = $DB->loadTitles('wota');
+            $i = 1;
+            foreach($Titles as $Title)
+             {
+                  $Text = '<li>';
+                  $Text .= '<button onclick="loadDoc(\'wota/' . $Title['title'] . '\', false)"';
+                  $Text .= 'class="button">[WotA] <br>[Part ' . $i++ . ']</button>';
+                  $Text .= '</li>';
+                  echo $Text;   
+                }
+
+            ?>
+      
         </div>
         
         <p id="entr" style="font-size: 17px;"></p>

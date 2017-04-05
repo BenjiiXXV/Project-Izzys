@@ -39,19 +39,14 @@ class DB {
   public function loginUser($username, $password) {
     $this->connect('u319171765_holes');
     try {
-      $stmt = $this->conn->prepare('SELECT * FROM `users` WHERE `user` = :user AND `password` = :password');
+      $stmt = $this->conn->prepare('SELECT * FROM users WHERE user = :user');
       $stmt->bindParam(':user', $username);
-      $stmt->bindParam(':password', $password); 
+
       $stmt->execute();
 
       $result = $stmt->fetchAll();
 
-      if ($result[0]) {
-          return true;
-        
-      }
-
-      return false;
+      return isset($result[0]);
     }
     catch (PDOException $e) {
       return "Error: " . $e->getMessage();
@@ -97,7 +92,7 @@ class DB {
       
       return $x;
     } 
-    catch (PDOException $e){ return "Error: " + $e->getMessage();}
+    catch (PDOException $e){ return "Error: " . $e->getMessage();}
   }
 
   public function selectComment($user)
@@ -113,7 +108,7 @@ class DB {
         $result = $query->fetchAll();
         return $result;
     }
-    catch (PDOException $e) { return "Error: " + $e->getMessage();}
+    catch (PDOException $e) { return "Error: " . $e->getMessage();}
 
   }
 
@@ -130,7 +125,7 @@ class DB {
         $result = $query->fetchAll();
         return $result;
     }
-    catch (PDOException $e) { return "Error: " + $e->getMessage();}
+    catch (PDOException $e) { return "Error: " . $e->getMessage();}
 
   }
 
@@ -138,20 +133,38 @@ class DB {
   {
     // Connect to db
     $this->connect('u319171765_holes');
+   
     try
     {
+       $query = $this->conn->prepare('SELECT * FROM `fonts` WHERE `user` = :user');
+       
         if (isset($_SESSION['user'])) {
-        $query = $this->conn->prepare('SELECT * FROM `fonts` WHERE `user` = :user');
-        } else {
-        $query = $this->conn->prepare('SELECT * FROM `fonts` WHERE `user` = Default');
-        }
         $query->bindParam(':user', $user);
+   
+        } else {
+          $Default = 'Default';
+        $query->bindParam(':user', $Default);
+     
+        }
+       
         $query->execute();
 
         $result = $query->fetchAll();
         return $result;
     }
-    catch (PDOException $e) { return "Error: " + $e->getMessage();}
+    catch (PDOException $e) { return "Error: " . $e->getMessage();}
 
+  }
+
+  public function loadTitles($page)
+  {
+    $this->connect('u319171765_holes');
+    try
+    {
+      $query = $this->conn->prepare('SELECT * FROM `title_'.$page.'` ORDER BY `id` ASC');
+      $query->execute();
+      return $query->fetchAll();
+    }
+    catch(PDOException $e) { return "Error: " . $e->getMessage(); }
   }
 }

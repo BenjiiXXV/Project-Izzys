@@ -1,7 +1,7 @@
 <?php
-  require("head.php");
-  include("sidenav.php");
-  include("commentdata.php");
+  require_once("head.php");
+  include_once("sidenav.php");
+  include_once("commentdata.php");
 ?>
 <html>
   <head>
@@ -20,11 +20,20 @@
           and styling errors. 
           <br>(Click any title to view the chapter)</h4>
           <div class="deadNav">
-            <ul>
-              <li><button onclick="loadDoc('dead/Mellody', false)" class="button">[CRIME]<br>Mellody Conroy</button></li>
-              <li><button onclick="loadDoc('dead/YAAS', false)" class="button">[SURVIVAL]<br>YAAS</button></li>
-              <li><button onclick="loadDoc('dead/Equity', false)" class="button">[REV/ROM]<br>Equity</button></li>
-            </ul>
+           <?php
+            $DB = new DB();
+            $Titles = $DB->loadTitles('dead');
+           
+            foreach($Titles as $Title)
+             {
+                  $Text = '<li>';
+                  $Text .= '<button onclick="loadDoc(\'dead/' . $Title['title'] . '\', false)"';
+                  $Text .= 'class="button">' . $Title['title'] . '</button>';
+                  $Text .= '</li>';
+                  echo $Text;
+                }
+
+            ?>
           </div>
           
           <p id="entr"></p>

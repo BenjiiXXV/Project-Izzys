@@ -1,7 +1,8 @@
 <?php
-  require("head.php");
-  include("sidenav.php");
-  include("commentdata.php");
+  require_once("head.php");
+  include_once("sidenav.php");
+  include_once("commentdata.php");
+  include_once("db.php");
 ?>
 <html>
   <head>
@@ -17,10 +18,20 @@
         <h4>(Click any chapter name to view the chapter)</h4>
         <div class="GreenbergNav">
           <ul>
-            <li><button onclick="loadDoc('ge/The Entree', false)" class="button">[Chapter One]<br>The Entree</button></li>
-            <li><button onclick="loadDoc('ge/The Array', false)" class="button">[Chapter Two]<br>The Array</button></li>
-            <li><button onclick="loadDoc('ge/The Efflorescense', false)" class="button">[Chapter Three]<br>The Efflorescense</button></li>
-            <li><button onclick="loadDoc('ge/The Enmity', false)" class="button">[Chapter Four]<br>The Enmity</button></li>
+            <?php
+            $DB = new DB();
+            $Titles = $DB->loadTitles('gb');
+            $i = 1;
+            foreach($Titles as $Title)
+             {
+                  $Text = '<li>';
+                  $Text .= '<button onclick="loadDoc(\'ge/' . $Title['title'] . '\', false)"';
+                  $Text .= 'class="button">[Chapter ' . $i++ . ']<br>' . $Title['title'] . '</button>';
+                  $Text .= '</li>';
+                  echo $Text;
+                }
+
+            ?>
           </ul>
         </div>
         
