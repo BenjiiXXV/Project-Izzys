@@ -1,5 +1,5 @@
  <?php 
-        include("db.php");
+        include_once("db.php");
         if (!empty($_POST)) {
           $sender = $_POST['email'];
           $user = $_POST["user"];

@@ -1,5 +1,6 @@
 <?php 
-  include("login.php");
+include_once("db.php");
+  include_once("login.php");
   session_start ();
 ?>
 
@@ -9,10 +10,10 @@
         <div class="container-fluid">
             <!-- Collect the nav links, forms, and other content for toggling -->
            
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" stlyle="background-color: rgba(255, 0, 0, 0.4);">
                     <li><a href="Greenberg.php" class="button" style="button">FEATURED PRIDE:<br>Greenberg's Experiment</a></li>
                     <li class="dropdown">
-                        <a href="#" class="button dropdown-toggle" data-toggle="dropdown" role="button">BACKBURNERS<br>Idle Projects</a>
+                        <a href="#" class="button dropdown-toggle" data-toggle="dropdown" role="button">BACKBURNERS<br>Other Projects</a>
                         <ul class="dropdown-menu" style="background-color: black;">
                             <li><a href="wota.php" class="button"  style="height: 50px;">WAR OF<br>THE ANGELS</a></li>
                             <li><a href="gol.php" class="button"  style="height: 50px;">GANGS<br>OF LETUM</a></li>  
@@ -26,40 +27,33 @@
         </div><!-- /.container-fluid -->
     </nav>
 </body>
-<?php if (isset($_SESSION['role'])) {
+
+<?php if (isset($_SESSION['user'])) {
    echo '<script>
-
-
     document.getElementById("mebutton").innerHTML = "MY<br>PROFILE";
     document.getElementById("me2button").innerHTML = "LOG<br>OUT";
-    function login(){
-            window.location.href = "profile.php";
-          };
-          function register(){
-            window.location.href = "logout.php";
-          };
     </script>';
-};
-?>
-
-         <?php if (!isset($_SESSION['role'])) {
+    function login(){
+           header("location: profile.php");
+          }
+          function register(){
+          session_destroy();
+          header("Refresh:3");
+          }
+}
+if (!isset($_SESSION['user'])) {
     echo '<script>
    document.getElementById("mebutton").innerHTML = "SIGN<br>UP";
               function login(){
-                      $(document).ready(function(){
-                        $("#mebutton").click(function(){
                           $("#registrymodal").modal();
-                        });
-                      });
+                      
               }
             document.getElementById("me2button").innerHTML = "LOG<br>IN";
                 function register(){
-                      $(document).ready(function(){
-                        $("#me2button").click(function(){
                           $("#loginmodal").modal();
-                        });
-                      });
 
                 }
 </script>';
-};?>
+}
+
+?>

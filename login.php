@@ -1,8 +1,7 @@
 <?php
-include ('privateShizzle.php');
-include("db.php");
+session_start();
+include_once("db.php");
 $db = new DB();
-session_start ();
 ?>
 <div class="container">
   <!-- Login Modal -->
@@ -15,7 +14,7 @@ session_start ();
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
-          <form role="form" method="get">
+          <form role="form" method="POST">
             <div class="form-group">
               <label for="user"><span class="glyphicon glyphicon-user"></span> Username</label>
               <input type="text" class="form-control" name="user" placeholder="Enter Username">
@@ -59,7 +58,8 @@ session_start ();
               <input type="password" class="form-control" name="psw2" placeholder="Retype password">
             </div>
             <div class="modal-footer">
-            <button type="submit" name="submit" value="register" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Register me!</button>
+           
+            <button onclick="registry()" value="register" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Register me!</button>
           </div>
           </form>
         </div>
@@ -70,8 +70,8 @@ session_start ();
 
 <?php
 
-
-   if (isset($_POST["submit"]) && $_POST['submit'] == ('register')) {
+function registry(){
+   if (isset($_POST) ) {
 
 
        $user = ($_POST["user"]);
@@ -79,11 +79,11 @@ session_start ();
        $password = ($_POST["psw"]);
        $password2 = ($_POST["psw2"]);
 
-       if ($_POST['psw'] == $_POST['psw2']) {
+       if ($password == $password2) {
 
 
            // Call method with param
-           $result = $db->storeUser($_POST['email'], $_POST['user'], $_POST['password']);
+           $result = $db->storeUser($email, $user, $password);
            if ($result) {
                $emailaddress = $_POST["email"];
                $subject = "Activation account";
@@ -109,7 +109,8 @@ session_start ();
                    "The Admin
                         </body>
                         </html>";
-               $headers = "Cc: erikgraaff@gmail.com" . "\r\n";
+            
+               $headers ="From: noreply@izzys.hol.es"."\r\n";
                $headers .= "Content-Type: text/html; charset=UTF-8";
                mail($emailaddress, $subject, $messageHtml, $headers);
 
@@ -128,41 +129,28 @@ session_start ();
        }
    }
 
+}
 
-if (isset($_GET["submit"]) && $_GET['submit'] == ('login')){
+
+if (isset($_POST["submit"]) && $_POST['submit'] == ('login')){
 
     // select query opbouwen
 
-    $result = $db->loginUser($_GET['user'], $_GET['password']);
+    $result = $db->loginUser($_POST['user'], $_POST['psw']);
 
 
     if (count($result) > 0 ){
-
-            var_dump($result);
+$_SESSION ['user'] = $result['user'];
+ $_SESSION ['role'] = $result['user_role'];
                 echo 'You are logged in';
-                    $_SESSION ['role'] = 'user';
-                    echo "<script>alert('You are logged in!')</script>";
-                    header("location: index.php?content=home");
+                   
+                   
+                  
+                   header("Refresh:0");
 
-                    /*
-                    switch($record["user-role"])
-                    {
-
-                        case "ADMIN":
-                            header("location: dashboard.php?content=admin_home");
-                            break;
-                        case "BETA":
-                            header("location: dashboard.php?content=beta_home");
-                            break;
-                        case "FOLLOWER":
-                            header("location: dashboard.php?content=follower_home");
-                            break;
-                        default:
-                            header("location: dashboard.php?content=home");
-                            break;
-
-                    }
-                    */
+                     
+                  
+                    
                 }
                 else
                 {
@@ -172,54 +160,7 @@ if (isset($_GET["submit"]) && $_GET['submit'] == ('login')){
         }
 
 
-/*
-$mode = $_REQUEST["mode"];
-if ($mode == "login") {
-    $username = trim($_POST['username']);
-    $pass = trim($_POST['password']);
 
-    if ($username == "" || $pass == "") {
-
-        $_SESSION["errorType"] = "danger";
-        $_SESSION["errorMsg"] = "Enter manadatory fields";
-    } else {
-        $sql = "SELECT * FROM users WHERE username = :uname AND password = :upass ";
-
-        try {
-            $stmt = $DB->prepare($sql);
-
-            // bind the values
-            $stmt->bindValue(":uname", $username);
-            $stmt->bindValue(":upass", $pass);
-
-            // execute Query
-            $stmt->execute();
-            $results = $stmt->fetchAll();
-
-            if (count($results) > 0) {
-                $_SESSION["errorType"] = "success";
-                $_SESSION["errorMsg"] = "You have successfully logged in.";
-
-               
-                $_SESSION["rolecode"] = $results[0]["u_rolecode"];
-                $_SESSION["username"] = $results[0]["u_username"];
-
-                redirect("dashboard.php");
-                exit;
-            } else {
-                $_SESSION["errorType"] = "info";
-                $_SESSION["errorMsg"] = "username or password does not exist.";
-            }
-        } catch (Exception $ex) {
-
-            $_SESSION["errorType"] = "danger";
-            $_SESSION["errorMsg"] = $ex->getMessage();
-        }
-    }
-   // redirect function is found in functions.php page
-    redirect("index.php");
-}
-*/
 ?>
 
 

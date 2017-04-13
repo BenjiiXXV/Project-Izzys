@@ -1,5 +1,5 @@
 <?php 
-  include("login.php"); 
+  include_once("login.php"); 
 ?>
 
 <html>
@@ -20,32 +20,32 @@
     </nav>
 </body>
 
-<script>
-
-         /* if (user is logged on{
-             document.getElementById("mebutton").innerHTML = "MY<br>PROFILE";
-            document.getElementById("me2button").innerHTML = "LOG<br>OUT";
-          function me(){
-            window.location.href = "profile.php";
+<?php if (isset($_SESSION['user'])) {
+   echo '<script>
+    document.getElementById("mebutton").innerHTML = "MY<br>PROFILE";
+    document.getElementById("me2button").innerHTML = "LOG<br>OUT";
+    </script>';
+    function login(){
+           header("location: profile.php");
           }
-        
-        } else {*/
-            document.getElementById("mebutton").innerHTML = "SIGN<br>UP";
+          function register(){
+          session_destroy();
+          header("Refresh:3");
+          }
+}
+ if (!isset($_SESSION['user'])) {
+    echo '<script>
+   document.getElementById("mebutton").innerHTML = "SIGN<br>UP";
               function login(){
-                      $(document).ready(function(){
-                        $("#mebutton").click(function(){
                           $("#registrymodal").modal();
-                        });
-                      });
+                      
               }
             document.getElementById("me2button").innerHTML = "LOG<br>IN";
                 function register(){
-                      $(document).ready(function(){
-                        $("#me2button").click(function(){
                           $("#loginmodal").modal();
-                        });
-                      });
-                
+
                 }
-    //}
-</script>
+</script>';
+}
+
+?>
